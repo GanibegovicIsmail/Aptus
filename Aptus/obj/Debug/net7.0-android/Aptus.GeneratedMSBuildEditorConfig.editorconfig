@@ -20,6 +20,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/AppPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.AppPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AppPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AppPage.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus/Aptus/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.AppShell.xaml
@@ -31,6 +37,42 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/NextPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.NextPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NextPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NextPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/NextPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.NextPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = NextPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = NextPage2.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/NextPage3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.NextPage3.xaml
+build_metadata.AdditionalFiles.TargetPath = NextPage3.xaml
+build_metadata.AdditionalFiles.RelativePath = NextPage3.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/NextPage4.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.NextPage4.xaml
+build_metadata.AdditionalFiles.TargetPath = NextPage4.xaml
+build_metadata.AdditionalFiles.RelativePath = NextPage4.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/NextPage5.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.NextPage5.xaml
+build_metadata.AdditionalFiles.TargetPath = NextPage5.xaml
+build_metadata.AdditionalFiles.RelativePath = NextPage5.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus/Aptus/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus/Aptus/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

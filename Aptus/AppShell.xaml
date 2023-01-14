@@ -5,10 +5,31 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Aptus"
     Shell.FlyoutBehavior="Disabled">
+    
+    <ShellContent
+        Title="RegisterPage"
+        ContentTemplate="{DataTemplate local:RegisterPage}"
+        Route="RegisterPage" />
+
+    <ShellContent
+        Title="NextPage5"
+        ContentTemplate="{DataTemplate local:NextPage5}"
+        Route="NextPage5" />
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <ShellContent
+        Title="NextPage"
+        ContentTemplate="{DataTemplate local:NextPage}"
+        Route="NextPage" />
+
+    <ShellContent
+        Title="AppPage"
+        ContentTemplate="{DataTemplate local:AppPage}"
+        Route="AppPage" />
+
 
 </Shell>

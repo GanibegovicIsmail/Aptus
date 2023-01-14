@@ -1,24 +1,19 @@
-﻿namespace Aptus;
+﻿using System.Runtime.CompilerServices;
+
+namespace Aptus;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
 
 	public MainPage()
 	{
-		InitializeComponent();
-	}
-
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
-
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+        InitializeComponent();
+    }
+    private void OnNavigateButtonClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new NextPage());
+        NavigateButtSn.BorderWidth = 0;
+    }
 }
+
 

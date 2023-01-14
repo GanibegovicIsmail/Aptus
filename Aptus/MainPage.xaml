@@ -1,41 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Aptus.MainPage">
+             x:Class="Aptus.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <StackLayout>
+            <Image Source="finallogo.png" Scale="0.23" Margin="0,100,0,0"></Image>
+        </StackLayout>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
+        <StackLayout Margin="0,0,0,30" Padding="20" VerticalOptions="EndAndExpand">
+            <Button x:Name="NavigateButtSn" Text="CREATE ACCOUNT" Clicked="OnNavigateButtonClicked" CornerRadius="18"
+                    Margin="30,0,30,40" FontFamily="Arial" FontAttributes="Bold" FontSize="13" HeightRequest="60" 
+                    BackgroundColor="#364B51" TextColor="#BFC4C6">
+            </Button>
+        </StackLayout>
+        
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        
+    </StackLayout>
 
 </ContentPage>
