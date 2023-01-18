@@ -12,9 +12,9 @@
         Route="RegisterPage" />
 
     <ShellContent
-        Title="NextPage5"
-        ContentTemplate="{DataTemplate local:NextPage5}"
-        Route="NextPage5" />
+        Title="LoginPage"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
 
     <ShellContent
         Title="Home"
@@ -22,14 +22,14 @@
         Route="MainPage" />
 
     <ShellContent
-        Title="NextPage"
-        ContentTemplate="{DataTemplate local:NextPage}"
-        Route="NextPage" />
+        Title="GenderPage"
+        ContentTemplate="{DataTemplate local:GenderPage}"
+        Route="GenderPage" />
 
     <ShellContent
-        Title="AppPage"
-        ContentTemplate="{DataTemplate local:AppPage}"
-        Route="AppPage" />
+        Title="BMIHeightPage"
+        ContentTemplate="{DataTemplate local:BMIHeightPage}"
+        Route="BMIHeightPage" />
 
 
 </Shell>

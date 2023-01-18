@@ -9,12 +9,12 @@
         </StackLayout>
 
         <StackLayout Margin="0,0,0,30" Padding="20" VerticalOptions="EndAndExpand">
-            <Button x:Name="NavigateButtSn" Text="CREATE ACCOUNT" Clicked="OnNavigateButtonClicked" CornerRadius="18"
+            <Button x:Name="NavigateButtSn" Text="CREATE ACCOUNT" Clicked="OnNavigateButtonClicked" CornerRadius="20"
                     Margin="30,0,30,40" FontFamily="Arial" FontAttributes="Bold" FontSize="13" HeightRequest="60" 
                     BackgroundColor="#364B51" TextColor="#BFC4C6">
             </Button>
         </StackLayout>
-        
+       
         <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>

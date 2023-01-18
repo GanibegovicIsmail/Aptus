@@ -11,7 +11,7 @@ public partial class MainPage : ContentPage
     }
     private void OnNavigateButtonClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new NextPage());
+        Navigation.PushAsync(new LoginPage());
         NavigateButtSn.BorderWidth = 0;
     }
 }
