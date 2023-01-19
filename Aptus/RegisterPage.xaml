@@ -5,7 +5,9 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
 
-        <HorizontalStackLayout Margin="50,120,0,220" Spacing="70" >
+        <HorizontalStackLayout Margin="50,120,0,220" 
+                               Spacing="70" >
+            
             <ImageButton Padding="0,0,0,2" 
                          Source="back.png" 
                          WidthRequest="45" 

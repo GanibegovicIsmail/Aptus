@@ -5,14 +5,29 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
         <StackLayout>
-            <Image Source="finallogo.png" Scale="0.23" Margin="0,100,0,0"></Image>
+            <Image Source="finallogo.png" 
+                   Scale="0.23" 
+                   Margin="0,100,0,0">
+            </Image>
         </StackLayout>
 
-        <StackLayout Margin="0,0,0,30" Padding="20" VerticalOptions="EndAndExpand">
-            <Button x:Name="NavigateButtSn" Text="CREATE ACCOUNT" Clicked="OnNavigateButtonClicked" CornerRadius="20"
-                    Margin="30,0,30,40" FontFamily="Arial" FontAttributes="Bold" FontSize="13" HeightRequest="60" 
-                    BackgroundColor="#364B51" TextColor="#BFC4C6">
+        <StackLayout Margin="0,0,0,30" 
+                     Padding="20" 
+                     VerticalOptions="EndAndExpand">
+            
+            <Button x:Name="NavigateButtSn" 
+                    Text="CREATE ACCOUNT" 
+                    Clicked="OnNavigateButtonClicked" 
+                    CornerRadius="20"
+                    Margin="30,0,30,40" 
+                    FontFamily="Arial" 
+                    FontAttributes="Bold" 
+                    FontSize="13"
+                    HeightRequest="60" 
+                    BackgroundColor="#364B51" 
+                    TextColor="#BFC4C6">
             </Button>
+            
         </StackLayout>
        
         <StackLayout.Background>

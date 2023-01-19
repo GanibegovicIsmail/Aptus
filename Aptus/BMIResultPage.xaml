@@ -5,7 +5,10 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
 
-        <StackLayout Orientation ="Horizontal" HorizontalOptions="Start" Margin="0,80,0,0">
+        <StackLayout Orientation ="Horizontal" 
+                     HorizontalOptions="Start" 
+                     Margin="0,80,0,0">
+            
             <ImageButton Margin="45" 
                      Padding="0,0,0,2" 
                      Source="back.png" 
@@ -20,7 +23,8 @@
         </StackLayout>
 
 
-        <Label x:Name="BmiLabel" Text="YOUR BMI SCORE:"
+        <Label x:Name="BmiLabel" 
+               Text="YOUR BMI SCORE:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="Arial"
@@ -28,20 +32,23 @@
                FontSize="25"
                TextColor="White"/>
 
-        <Label x:Name="BmiValueLabel" Text="0"
+        <Label x:Name="BmiValueLabel" 
+               Text="0"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
                FontSize="48"
                FontFamily="ArialRoundedMTBold"
                TextColor="White"/>
         
-        <Label x:Name="ClassificationLabel" Text="Classification:"
+        <Label x:Name="ClassificationLabel" 
+               Text="Classification:"
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand" 
                FontFamily="ArialRoundedMTBold"
                TextColor="White"/>
 
-        <Button x:Name="NextButton" Text="NEXT" 
+        <Button x:Name="NextButton" 
+                Text="NEXT" 
                 Clicked="OnNextButtonClicked" 
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand"

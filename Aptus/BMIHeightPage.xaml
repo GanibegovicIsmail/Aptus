@@ -5,7 +5,10 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
 
-        <StackLayout Orientation ="Horizontal" HorizontalOptions="Start" Margin="0,80,0,0">
+        <StackLayout Orientation ="Horizontal" 
+                     HorizontalOptions="Start" 
+                     Margin="0,80,0,0">
+            
             <ImageButton Margin="45" 
                      Padding="0,0,0,2" 
                      Source="back.png" 
@@ -27,7 +30,8 @@
                TextColor="White"
                Margin="0,60,0,0"/>
 
-        <Slider x:Name="HeightSlider" WidthRequest="250"
+        <Slider x:Name="HeightSlider" 
+                   WidthRequest="250"
                    HeightRequest="150"
                    Minimum="128"
                    Maximum="228"
@@ -37,13 +41,17 @@
                    ValueChanged="OnValueChanged"
                    />
         
-        <Label x:Name="HeightLabel" Text="0 cm" 
+        <Label x:Name="HeightLabel" 
+               Text="0 cm" 
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"
-               FontSize="20" TextColor="White"
-               Margin="0,0,0,110" FontFamily="ArialRoundedMTBold"/>
+               FontSize="20" 
+               TextColor="White"
+               Margin="0,0,0,110" 
+               FontFamily="ArialRoundedMTBold"/>
 
-        <Button x:Name="NextButton" Text="NEXT" 
+        <Button x:Name="NextButton" 
+                Text="NEXT" 
                 Clicked="OnNextButtonClicked" 
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand"

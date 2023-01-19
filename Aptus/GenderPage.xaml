@@ -5,7 +5,9 @@
              NavigationPage.HasNavigationBar="False">
 
     <StackLayout>
-        <StackLayout Orientation ="Horizontal" HorizontalOptions="Start" Margin="0,80,0,0">
+        <StackLayout Orientation ="Horizontal" 
+                     HorizontalOptions="Start" 
+                     Margin="0,80,0,0">
 
             <ImageButton Margin="45" 
                          Padding="0,0,0,2" 
@@ -21,7 +23,8 @@
             
         </StackLayout>
 
-        <StackLayout HorizontalOptions="Center" Margin="0,60,0,0">
+        <StackLayout HorizontalOptions="Center" 
+                     Margin="0,60,0,0">
             
             <Label Text="GENDER" 
                    HorizontalOptions="Center"  

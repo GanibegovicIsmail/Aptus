@@ -4,7 +4,10 @@
              x:Class="Aptus.GoalsPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
-        <StackLayout Orientation ="Horizontal" HorizontalOptions="Start" Margin="0,80,0,0">
+        <StackLayout Orientation ="Horizontal" 
+                     HorizontalOptions="Start" 
+                     Margin="0,80,0,0">
+            
             <ImageButton Margin="45" 
                          Padding="0,0,0,2" 
                          Source="back.png" 
