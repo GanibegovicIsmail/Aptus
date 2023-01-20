@@ -16,7 +16,7 @@
                          HeightRequest="30" 
                          Clicked="OnImage3Clicked"></ImageButton>
 
-            <Image Source="loading4.png" 
+            <Image Source="loading5.png" 
                    HorizontalOptions="Center" 
                    WidthRequest="120" 
                    HeightRequest="120"></Image>

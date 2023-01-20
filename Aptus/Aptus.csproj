@@ -62,6 +62,7 @@
 	  <None Remove="Resources\Images\loading2.png" />
 	  <None Remove="Resources\Images\loading3.png" />
 	  <None Remove="Resources\Images\loading4.png" />
+	  <None Remove="Resources\Images\loading5.png" />
 	  <None Remove="Resources\Images\logo.svg" />
 	  <None Remove="Resources\Images\logotextpng.png" />
 	  <None Remove="Resources\Images\losefat.png" />
