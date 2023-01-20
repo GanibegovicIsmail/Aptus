@@ -52,7 +52,7 @@ namespace Aptus
         }
         void TapGestureRecognizer_Tapped_For_SignUp(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new RegisterPage());
+            Navigation.PushModalAsync(new RegisterPage());
         }
     }
 }

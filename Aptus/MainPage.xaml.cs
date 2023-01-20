@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
+
 namespace Aptus;
 
 public partial class MainPage : ContentPage
@@ -11,7 +12,7 @@ public partial class MainPage : ContentPage
     }
     private void OnNavigateButtonClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new LoginPage());
+        Navigation.PushAsync(new LoginPage(), true);
         NavigateButtSn.BorderWidth = 0;
     }
 }

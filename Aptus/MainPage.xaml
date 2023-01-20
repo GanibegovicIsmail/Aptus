@@ -5,9 +5,12 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
         <StackLayout>
-            <Image Source="finallogo.png" 
+            <Image 
+                   x:Name="logo"
+                   Source="finallogo.png" 
                    Scale="0.23" 
-                   Margin="0,100,0,0">
+                   Margin="0,100,0,0"
+                   >
             </Image>
         </StackLayout>
 
