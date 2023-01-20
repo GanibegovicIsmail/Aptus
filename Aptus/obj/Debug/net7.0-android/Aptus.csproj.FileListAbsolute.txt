@@ -1973,3 +1973,4 @@ C:\Users\Mejrima\Desktop\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_ConvertReso
 C:\Users\Mejrima\Desktop\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Mejrima\Desktop\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mejrima\Desktop\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Mejrima\Desktop\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\loading5.png

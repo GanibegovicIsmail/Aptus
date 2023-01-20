@@ -20,12 +20,12 @@
                    HorizontalOptions="Center" 
                    WidthRequest="120" 
                    HeightRequest="120"></Image>
-            
+
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center" 
                      Margin="0,60,0,0">
-            
+
             <Label Text="GENDER" 
                    HorizontalOptions="Center"  
                    Margin="0,0,0,40" 
@@ -33,14 +33,14 @@
                    FontFamily="Arial Rounded MT Bold" 
                    FontAttributes="Bold" 
                    TextColor="White"/>
-            
+
             <StackLayout Orientation="Horizontal">
                 <ImageButton x:Name="MaleButton" 
                              Source="malepng.png" 
                              HeightRequest="150" 
                              WidthRequest="150" 
                              Clicked="OnMaleButtonClicked"/>
-                
+
                 <ImageButton x:Name="FemaleButton" 
                              Source="femalepng.png" 
                              HeightRequest="150"
@@ -63,14 +63,13 @@
                 FontAttributes="Bold" 
                 FontSize="13"/>
 
-    <StackLayout.Background>
-        <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
-            <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-            <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
-        </LinearGradientBrush>
-    </StackLayout.Background>
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
     </StackLayout>
-
 
 </ContentPage>
 

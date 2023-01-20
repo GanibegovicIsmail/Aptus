@@ -12,7 +12,14 @@ namespace Aptus
 
         private void OnNextButtonClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginPage());
+            if (_isMaleSelected)
+            {
+                Navigation.PushAsync(new MaleFrontPage());
+            }
+            else if (_isFemaleSelected)
+            {
+                Navigation.PushAsync(new FemaleFrontPage());
+            }
         }
 
         private void OnImage3Clicked(object sender, EventArgs e)
@@ -39,3 +46,4 @@ namespace Aptus
         }
     }
 }
+

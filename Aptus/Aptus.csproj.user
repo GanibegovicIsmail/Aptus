@@ -20,6 +20,9 @@
     <MauiXaml Update="BMIWeightPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="FemaleFrontPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="GenderPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -27,6 +30,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MaleFrontPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="RegisterPage.xaml">
