@@ -51,21 +51,21 @@ namespace Aptus.ViewModels
             {
                 //IntroTitle = "Anytime, Anywhere",
                 //IntroDescription = "Now you can check homework anytime right from mobile",
-                IntroImage = "maleback"
+                IntroImage = "maleshoulders"
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
             //    IntroTitle = "Ready to Find A Course",
             //    IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "malelegs"
+                IntroImage = "maleback"
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
                 //IntroTitle = "Nesto Random",
                 //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "maleshoulders"
+                IntroImage = "malelegs"
             });
             IntroScreens.Add(new IntroScreenModels
             {
