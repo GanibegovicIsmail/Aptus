@@ -5,7 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Aptus"
     Shell.FlyoutBehavior="Disabled">
-    
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:IntroScreenView}"
+        Route="IntroScreenView" />
+
     <ShellContent
         Title="RegisterPage"
         ContentTemplate="{DataTemplate local:RegisterPage}"

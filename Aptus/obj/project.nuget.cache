@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhnUtJ8nKoINDxszqtJXzHnLuITunO5b5o5NAfRXPm48pPQBqmzgx8rpTmcOP76kbaiEWwdKUU+FwAEAGD4yWQ==",
+  "dgSpecHash": "4851j6sJQjVHBkyaqjaVxDGnxYQ63wOisVIcxrZfXn3kxfFTLBju2M+HniRt3N8S2+VvbAKR0YLt8+HxYzLdOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mejrima\\Desktop\\Aptus\\Aptus\\Aptus.csproj",
+  "projectFilePath": "C:\\Users\\Mejrima\\Source\\Repos\\Aptus\\Aptus\\Aptus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mejrima\\.nuget\\packages\\googlegson\\2.9.1\\googlegson.2.9.1.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
