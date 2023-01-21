@@ -58,6 +58,7 @@
 	  <None Remove="Resources\Images\femaleclicked.png" />
 	  <None Remove="Resources\Images\femalepng.png" />
 	  <None Remove="Resources\Images\finallogo.png" />
+	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\loading1.png" />
 	  <None Remove="Resources\Images\loading2.png" />
 	  <None Remove="Resources\Images\loading3.png" />
@@ -69,6 +70,9 @@
 	  <None Remove="Resources\Images\losefatclicked.png" />
 	  <None Remove="Resources\Images\maleclicked.png" />
 	  <None Remove="Resources\Images\malepng.png" />
+	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\profile.png" />
+	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Splash\logotext.png" />
 	</ItemGroup>
 
@@ -89,6 +93,9 @@
 	<ItemGroup>
 	  <Compile Update="BMIHeightPage.xaml.cs">
 	    <DependentUpon>BMIHeightPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MaleFrontPage.xaml.cs">
+	    <DependentUpon>MaleFrontPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="LoginPage.xaml.cs">
 	    <DependentUpon>LoginPage.xaml</DependentUpon>
@@ -126,7 +133,7 @@
 	  <MauiXaml Update="GoalsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="IntroScreenView.xaml">
+	  <MauiXaml Update="MaleFrontPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LoginPage.xaml">

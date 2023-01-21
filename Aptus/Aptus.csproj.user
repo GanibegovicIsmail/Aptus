@@ -29,7 +29,7 @@
     <MauiXaml Update="GoalsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="IntroScreenView.xaml">
+    <MauiXaml Update="MaleFrontPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="LoginPage.xaml">

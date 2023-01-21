@@ -2972,3 +2972,7 @@ C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_Conver
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
+C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\menu.png
+C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\profile.png
+C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\search.png

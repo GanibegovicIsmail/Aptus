@@ -7,9 +7,9 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:IntroScreenView}"
-        Route="IntroScreenView" />
+        Title="MaleFrontPage"
+        ContentTemplate="{DataTemplate local:MaleFrontPage}"
+        Route="MaleFrontPage" />
 
     <ShellContent
         Title="RegisterPage"
@@ -35,6 +35,13 @@
         Title="BMIHeightPage"
         ContentTemplate="{DataTemplate local:BMIHeightPage}"
         Route="BMIHeightPage" />
+
+    <TabBar Route="MaleFrontPage" >
+    <ShellContent Icon="home.png" Title="Home" Route="RecipesList" />
+    <ShellContent Icon="search.png" Title="Search" Route="Tab2" />
+    <ShellContent Icon="menu.png" Title="Menu" Route="Tab3" />
+    <ShellContent Icon="profile.png" Title="Profile" Route="Tab4" />
+    </TabBar>
 
 
 </Shell>
