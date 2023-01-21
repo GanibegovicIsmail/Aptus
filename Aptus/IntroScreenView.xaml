@@ -6,24 +6,39 @@
              x:Class="Aptus.IntroScreenView"
              x:DataType="viewModels:IntroScreenViewModel"
              NavigationPage.HasNavigationBar="False">
-
+    
+    
     <Grid Margin="0,20,0,20" RowDefinitions="*,Auto">
+
+        <Label 
+            Text="TARGET"
+            TextColor="White"
+            FontFamily="Arial"
+            FontSize="25"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Padding="0,90,0,0">
+        </Label>
 
         <CarouselView Grid.Row="0" 
                       Position="{Binding Position}"
                       IndicatorView="indicatorView" 
-                      Loop="False"
+                      Loop="True"
                       HorizontalOptions="FillAndExpand" 
                       VerticalOptions="Start" 
-                      ItemsSource="{Binding IntroScreens}">
+                      ItemsSource="{Binding IntroScreens}"
+                      Margin="0,130,0,0">
+                      
 
             <CarouselView.ItemTemplate>
                 <DataTemplate x:DataType="models:IntroScreenModels">
-                    <Grid RowDefinitions="100*, 50*">
+                    <Grid RowDefinitions="700*, 0*">
 
-                        <Frame WidthRequest="350" 
-                               BackgroundColor="White" 
-                               BorderColor="White">
+                        <Frame
+                               CornerRadius="80"
+                               WidthRequest="300"
+                               HeightRequest="350"
+                               Background="White">
 
                             <Image Source="{Binding IntroImage}" 
                                    Aspect="AspectFit" 
@@ -66,13 +81,15 @@
                 CornerRadius="20"
                 HeightRequest ="60" 
                 WidthRequest="300" 
-                BackgroundColor = "#364B51" >
+                BackgroundColor = "#364B51" 
+                Margin="0,0,0,70">
 
                 <Label  TextColor="White" 
                         Text="{Binding ButtonText}"
                         FontSize="13"
                         HorizontalTextAlignment="Center" 
-                        VerticalTextAlignment="Center" />
+                        VerticalTextAlignment="Center" 
+                        />
 
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding NextCommand}" />
@@ -87,7 +104,7 @@
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
             <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-            <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            <GradientStop Color="#A9B3B9" Offset="1"></GradientStop>
         </LinearGradientBrush>
     </ContentPage.Background>
 

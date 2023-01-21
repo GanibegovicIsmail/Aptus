@@ -27,11 +27,11 @@ namespace Aptus.ViewModels
             {
                 if (value == IntroScreens.Count - 1)
                 {
-                    ButtonText = "START";
+                    ButtonText = "CHOOSE";
                 }
                 else
                 {
-                    ButtonText = "NEXT";
+                    ButtonText = "CHOOSE";
                 }
             }));
         }
@@ -42,23 +42,30 @@ namespace Aptus.ViewModels
         {
             IntroScreens.Add(new IntroScreenModels
             {
-                IntroTitle = "Welcome To StudentApp",
-                IntroDescription = "Enjoy the captivating process of online education in a place and at a time of your choice",
+                //IntroTitle = "Welcome To StudentApp",
+                //IntroDescription = "Enjoy the captivating process of online education in a place and at a time of your choice",
                 IntroImage = "stack"
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
-                IntroTitle = "Anytime, Anywhere",
-                IntroDescription = "Now you can check homework anytime right from mobile",
+                //IntroTitle = "Anytime, Anywhere",
+                //IntroDescription = "Now you can check homework anytime right from mobile",
                 IntroImage = "elearning"
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
-                IntroTitle = "Ready to Find A Course",
-                IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
+            //    IntroTitle = "Ready to Find A Course",
+            //    IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
                 IntroImage = "homew"
+            });
+
+            IntroScreens.Add(new IntroScreenModels
+            {
+                //IntroTitle = "Nesto Random",
+                //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
+                IntroImage = "Randomaga"
             });
         }
 
