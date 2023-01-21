@@ -26966,11 +26966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mejrima\\Source\\Repos\\Aptus\\Aptus\\Aptus.csproj",
+      "projectUniqueName": "C:\\Users\\Mejrima\\Desktop\\Aptus 2\\Aptus\\Aptus.csproj",
       "projectName": "Aptus",
-      "projectPath": "C:\\Users\\Mejrima\\Source\\Repos\\Aptus\\Aptus\\Aptus.csproj",
+      "projectPath": "C:\\Users\\Mejrima\\Desktop\\Aptus 2\\Aptus\\Aptus.csproj",
       "packagesPath": "C:\\Users\\Mejrima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mejrima\\Source\\Repos\\Aptus\\Aptus\\obj\\",
+      "outputPath": "C:\\Users\\Mejrima\\Desktop\\Aptus 2\\Aptus\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

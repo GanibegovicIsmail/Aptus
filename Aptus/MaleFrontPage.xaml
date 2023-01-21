@@ -38,7 +38,7 @@
                                CornerRadius="80"
                                WidthRequest="300"
                                HeightRequest="350"
-                               Background="White">
+                               Background="Transparent">
 
                             <Image Source="{Binding IntroImage}" 
                                    Aspect="AspectFit" 

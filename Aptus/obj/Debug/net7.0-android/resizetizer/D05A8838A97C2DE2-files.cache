@@ -3,8 +3,13 @@ obj\Debug\net7.0-android\resizetizer\r\drawable\buildmuscle.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\buildmuscleclicked.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\buildstrengt.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\builldstrenghtclicked.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\femalearms.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\femaleback.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\femaleclicked.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\femaleglutes.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\femalehamstrings.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\femalepng.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\femalequads.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\finallogo.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\loading1.png
@@ -15,8 +20,13 @@ obj\Debug\net7.0-android\resizetizer\r\drawable\loading5.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\logotextpng.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\losefat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\losefatclicked.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\malearms.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\maleback.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\malechest.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\maleclicked.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\malelegs.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\malepng.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\maleshoulders.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\menu.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\profile.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\search.png

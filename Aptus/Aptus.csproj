@@ -55,8 +55,13 @@
 	  <None Remove="Resources\Images\buildmuscleclicked.png" />
 	  <None Remove="Resources\Images\buildstrengt.png" />
 	  <None Remove="Resources\Images\builldstrenghtclicked.png" />
+	  <None Remove="Resources\Images\femalearms.png" />
+	  <None Remove="Resources\Images\femaleback.png" />
 	  <None Remove="Resources\Images\femaleclicked.png" />
+	  <None Remove="Resources\Images\femaleglutes.png" />
+	  <None Remove="Resources\Images\femalehamstrings.png" />
 	  <None Remove="Resources\Images\femalepng.png" />
+	  <None Remove="Resources\Images\femalequads.png" />
 	  <None Remove="Resources\Images\finallogo.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\loading1.png" />
@@ -68,8 +73,13 @@
 	  <None Remove="Resources\Images\logotextpng.png" />
 	  <None Remove="Resources\Images\losefat.png" />
 	  <None Remove="Resources\Images\losefatclicked.png" />
+	  <None Remove="Resources\Images\malearms.png" />
+	  <None Remove="Resources\Images\maleback.png" />
+	  <None Remove="Resources\Images\malechest.png" />
 	  <None Remove="Resources\Images\maleclicked.png" />
+	  <None Remove="Resources\Images\malelegs.png" />
 	  <None Remove="Resources\Images\malepng.png" />
+	  <None Remove="Resources\Images\maleshoulders.png" />
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\search.png" />
