@@ -55,6 +55,7 @@
 	  <None Remove="Resources\Images\buildmuscleclicked.png" />
 	  <None Remove="Resources\Images\buildstrengt.png" />
 	  <None Remove="Resources\Images\builldstrenghtclicked.png" />
+	  <None Remove="Resources\Images\defaultprofilepicture.png" />
 	  <None Remove="Resources\Images\femalearms.png" />
 	  <None Remove="Resources\Images\femaleback.png" />
 	  <None Remove="Resources\Images\femaleclicked.png" />
@@ -84,6 +85,7 @@
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Images\settings.png" />
+	  <None Remove="Resources\Images\smallcamera.png" />
 	  <None Remove="Resources\Splash\logotext.png" />
 	</ItemGroup>
 
@@ -95,6 +97,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="SQLite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.4" />
+		<PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>

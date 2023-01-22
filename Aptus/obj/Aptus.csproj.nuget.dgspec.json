@@ -98,6 +98,10 @@
               "target": "Package",
               "version": "[2.1.4, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -223,6 +227,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -294,6 +302,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -382,6 +394,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

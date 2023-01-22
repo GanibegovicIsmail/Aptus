@@ -5,10 +5,17 @@
              Title="SettingsPage"
              NavigationPage.HasNavigationBar="False"
              >
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout>
+
+
+
+
+
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+    </StackLayout>
 </ContentPage>
