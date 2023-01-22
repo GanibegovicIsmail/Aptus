@@ -44,34 +44,34 @@ namespace Aptus.ViewModels
             {
                 //IntroTitle = "Welcome To StudentApp",
                 //IntroDescription = "Enjoy the captivating process of online education in a place and at a time of your choice",
-                IntroImage = "malechest"
+                IntroImage = "malechest",
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
                 //IntroTitle = "Anytime, Anywhere",
                 //IntroDescription = "Now you can check homework anytime right from mobile",
-                IntroImage = "maleshoulders"
+                IntroImage = "maleback",
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
-            //    IntroTitle = "Ready to Find A Course",
-            //    IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "maleback"
+                //    IntroTitle = "Ready to Find A Course",
+                //    IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
+                IntroImage = "malelegs",
             });
 
             IntroScreens.Add(new IntroScreenModels
             {
                 //IntroTitle = "Nesto Random",
                 //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "malelegs"
+                IntroImage = "maleshoulders",
             });
             IntroScreens.Add(new IntroScreenModels
             {
                 //IntroTitle = "Nesto Random",
                 //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "malearms"
+                IntroImage = "malearms",
             });
         }
 

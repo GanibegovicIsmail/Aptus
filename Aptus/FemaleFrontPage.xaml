@@ -26,12 +26,12 @@
                       Loop="True"
                       HorizontalOptions="FillAndExpand" 
                       VerticalOptions="Start" 
-                      ItemsSource="{Binding IntroScreens}"
+                      ItemsSource="{Binding IntroScreens2}"
                       Margin="0,130,0,0">
 
 
             <CarouselView.ItemTemplate>
-                <DataTemplate x:DataType="models:IntroScreenModels">
+                <DataTemplate x:DataType="models:IntroScreenModels2">
                     <Grid RowDefinitions="700*, 0*">
 
                         <Frame

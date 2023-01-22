@@ -2976,6 +2976,14 @@ C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\menu.png
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\profile.png
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\search.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.runtimeconfig.json
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.dll
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.pdb
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.apk
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.aab
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.aab
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk.idsig
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\build.props
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\adb.props
@@ -3115,14 +3123,6 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.GeneratedM
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.AssemblyInfoInputs.cache
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.AssemblyInfo.cs
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.csproj.CoreCompileInputs.cache
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.runtimeconfig.json
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.dll
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.pdb
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.apk
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.aab
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.aab
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk.idsig
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\XamlC.stamp
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.pdb
