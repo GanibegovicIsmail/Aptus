@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:Aptus.ViewModels"
              xmlns:models="clr-namespace:Aptus.Models"
-             x:Class="Aptus.MaleFrontPage"
+             x:Class="Aptus.FemaleFrontPage"
              x:DataType="viewModels:IntroScreenViewModel2"
              NavigationPage.HasNavigationBar="False">
 

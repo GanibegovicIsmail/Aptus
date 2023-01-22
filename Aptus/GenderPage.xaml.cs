@@ -18,7 +18,7 @@ namespace Aptus
             }
             else if (_isFemaleSelected)
             {
-                Navigation.PushAsync(new FemaleFrontPage());
+                Navigation.PushAsync(new MaleFrontPage());
             }
         }
 

@@ -10,7 +10,7 @@ using System.Windows.Input;
 
 namespace Aptus.ViewModels
 {
-    public class IntroScreenViewModel2 : BaseViewModel
+    public class IntroScreenViewModel2 : BaseViewModel2
     {
         private string _buttonText = "NEXT";
         public string ButtonText
@@ -65,13 +65,13 @@ namespace Aptus.ViewModels
             {
                 //IntroTitle = "Nesto Random",
                 //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "femalearms"
+                IntroImage = "femaleback"
             });
             IntroScreens.Add(new IntroScreenModels
             {
                 //IntroTitle = "Nesto Random",
                 //IntroDescription = "Join our online school that will help you learn the cutting-edge skills to scale new heights in your creative career.",
-                IntroImage = "femaleback"
+                IntroImage = "femalearms"
             });
         }
 

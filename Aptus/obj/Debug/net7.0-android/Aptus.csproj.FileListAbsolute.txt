@@ -2976,14 +2976,6 @@ C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\menu.png
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\profile.png
 C:\Users\Mejrima\Source\Repos\Aptus\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\search.png
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.runtimeconfig.json
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.dll
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.pdb
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.apk
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.aab
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.aab
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk.idsig
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\build.props
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\adb.props
@@ -3123,6 +3115,14 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.GeneratedM
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.AssemblyInfoInputs.cache
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.AssemblyInfo.cs
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.csproj.CoreCompileInputs.cache
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.runtimeconfig.json
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.dll
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\Aptus.pdb
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.apk
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus.aab
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.aab
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\bin\Debug\net7.0-android\com.companyname.aptus-Signed.apk.idsig
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\XamlC.stamp
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\Aptus.pdb
@@ -3140,7 +3140,6 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\A
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\GoogleGson.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\Java.Interop.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\Java.Interop.pdb
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\machine.config
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\Microsoft.CSharp.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.dll
@@ -3493,6 +3492,7 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\AndroidManifest.
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\AndroidManifest.xml
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\__environment__.txt
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\mono\MonoRuntimeProvider.java
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\assets\machine.config
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\bin\mono.android.jar
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\static.flag
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\buildid.txt
@@ -3544,7 +3544,6 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\andr
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\androidx\viewpager2\R.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\androidx\window\R.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\bumptech\glide\R.java
-C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\companyname\aptus\R.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\google\android\material\R.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\microsoft\maui\R.java
@@ -3972,6 +3971,7 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\mono
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\bin\packaged_resources
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\src\com\companyname\aptus\R.java
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\typemaps.arm64-v8a.o
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\android\environment.arm64-v8a.o
