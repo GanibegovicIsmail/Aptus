@@ -27,7 +27,7 @@ namespace Aptus.ViewModels
             {
                 if (value == IntroScreens.Count - 1)
                 {
-                    ButtonText = "CHOOSE";
+                    ButtonText = "NEXT";
                 }
                 else
                 {
