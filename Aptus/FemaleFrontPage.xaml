@@ -11,14 +11,16 @@
     <Grid Margin="0,20,0,20" RowDefinitions="*,Auto">
 
         <Label 
-            Text="TARGET"
+            Text="  POSSIBLE MUSCLE 
+                                                                        GROUPS TO TARGET"
             TextColor="White"
-            FontFamily="Arial"
-            FontSize="25"
+            FontFamily="ArialRoundedMTBold"
+            FontSize="20"
             FontAttributes="Bold"
             HorizontalOptions="Center"
-            Padding="0,90,0,0">
+            Padding="85,90,0,0">
         </Label>
+
 
         <CarouselView Grid.Row="0" 
                       Position="{Binding Position}"
@@ -75,31 +77,19 @@
                            IndicatorSize="5"                          
                            IndicatorColor="White"  
                            SelectedIndicatorColor="#364B51" />
-
-            <Frame 
+            <Button 
+                TextColor="#BFC4C6" 
+                Text="NEXT"
+                FontAttributes="Bold"
+                FontSize="13"
                 HorizontalOptions="EndAndExpand"
                 Padding="0"
                 CornerRadius="20"
                 HeightRequest ="60" 
-                WidthRequest="300" 
+                WidthRequest="295" 
                 BackgroundColor = "#364B51" 
                 Margin="0,0,0,70"
-                BorderColor="Transparent">
-
-                <Label  TextColor="#BFC4C6" 
-                        Text="{Binding ButtonText}"
-                        FontAttributes="Bold"
-                        FontSize="13"
-                        HorizontalTextAlignment="Center" 
-                        VerticalTextAlignment="Center" 
-                        />
-
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding NextCommand}" />
-                </Frame.GestureRecognizers>
-
-            </Frame>
-
+                Clicked="OnNextButtonClicked"></Button>
 
         </VerticalStackLayout>
     </Grid>
