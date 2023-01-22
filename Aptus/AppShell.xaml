@@ -4,7 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Aptus"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:views="clr-namespace:Aptus">
 
     <ShellContent
         Title="MaleFrontPage"
@@ -35,6 +35,7 @@
         Title="BMIHeightPage"
         ContentTemplate="{DataTemplate local:BMIHeightPage}"
         Route="BMIHeightPage" />
+
 
 
 </Shell>

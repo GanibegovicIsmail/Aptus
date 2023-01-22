@@ -9,4 +9,8 @@ public partial class FemaleFrontPage : ContentPage
         InitializeComponent();
         this.BindingContext = new IntroScreenViewModel2();
     }
+    private void OnNextButtonClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new FemaleMusclePage(), true);
+    }
 }

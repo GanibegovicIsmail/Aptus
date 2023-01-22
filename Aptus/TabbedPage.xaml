@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Aptus"
+            x:Class="Aptus.TabbedPage1"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            SelectedTabColor="#2b73db"
+            UnselectedTabColor="Gray"
+            NavigationPage.HasNavigationBar="False"
+            >
+    <local:MaleMusclePage IconImageSource="home.png" Title="Home" />
+    <local:SettingsPage IconImageSource="settings.png" Title="Settings" />
+    <local:ProfilePage IconImageSource="profile.png" Title="Profile"/>
+</TabbedPage>

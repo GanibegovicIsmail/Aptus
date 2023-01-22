@@ -24,26 +24,28 @@ namespace Aptus
                 {
                     if (user.Password == PasswordEntry.Text)
                     {
-                        // User exists in the database and the password is correct
+                     
                         await Navigation.PushAsync(new BMIHeightPage());
                     }
                     else
                     {
-                        // User exists in the database but the password is incorrect
+                    
                         await DisplayAlert("Error", "Incorrect password", "Ok");
                     }
                 }
                 else
                 {
-                    // User does not exist in the database
+                
                     await DisplayAlert("Error", "User with this email does not exist!", "Ok");
                 }
             }
             catch (Exception ex)
             {
-                // Handle any exception that may have occurred
+              
                 await DisplayAlert("Error", ex.Message, "OK");
             }
+
+
 
         }
         private void OnBackButton5Clicked(object sender, EventArgs e)

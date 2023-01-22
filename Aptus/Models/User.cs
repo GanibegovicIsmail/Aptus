@@ -19,7 +19,7 @@ namespace Aptus.Models
         [Unique]
         public string Email { get; set; }
         public string Password { get; set; }
-
+        public byte[] ProfilePicture { get; internal set; }
     }
 
 }

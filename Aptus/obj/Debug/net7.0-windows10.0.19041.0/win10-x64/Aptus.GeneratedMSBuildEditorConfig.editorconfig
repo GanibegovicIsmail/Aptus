@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleFrontPage.xaml
 build_metadata.AdditionalFiles.TargetPath = FemaleFrontPage.xaml
 build_metadata.AdditionalFiles.RelativePath = FemaleFrontPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleMusclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleMusclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleMusclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleMusclePage.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/GenderPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.GenderPage.xaml
@@ -76,6 +82,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.MaleFrontPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MaleFrontPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MaleFrontPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/MaleMusclePaGE.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.MaleMusclePaGE.xaml
+build_metadata.AdditionalFiles.TargetPath = MaleMusclePaGE.xaml
+build_metadata.AdditionalFiles.RelativePath = MaleMusclePaGE.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilePage.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.RegisterPage.xaml
@@ -93,3 +111,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SettingsPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/TabbedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.TabbedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPage.xaml
