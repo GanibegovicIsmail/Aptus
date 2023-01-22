@@ -1,9 +1,12 @@
+using Aptus.ViewModels;
+
 namespace Aptus;
 
-public partial class FemaleFrontPage : ContentPage
+public partial class MaleFrontPage : ContentPage
 {
-	public FemaleFrontPage()
-	{
-		InitializeComponent();
-	}
+    public MaleFrontPage()
+    {
+        InitializeComponent();
+        this.BindingContext = new IntroScreenViewModel2();
+    }
 }
