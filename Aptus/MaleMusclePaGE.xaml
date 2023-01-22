@@ -5,17 +5,87 @@
              Title="MaleMusclePage"
              NavigationPage.HasNavigationBar="False"
              >
-    <StackLayout>
+    <ScrollView>
+        <StackLayout>
+
+            <Frame 
+            Margin="20,40,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
+
+            <Frame 
+            Margin="20,5,20,20"
+            HeightRequest="100"
+            CornerRadius="27">
+            </Frame>
 
 
 
 
 
-        <StackLayout.Background>
+            <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
             </LinearGradientBrush>
         </StackLayout.Background>
     </StackLayout>
+    </ScrollView>
 </ContentPage>
