@@ -9,11 +9,14 @@
         <Tab Title="Home" Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate local:MaleBodyParts}" />
         </Tab>
-        <Tab Title="Products" Icon="profile.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        <Tab Title="Workout" Icon="plus.png">
+            <ShellContent ContentTemplate="{DataTemplate local:WorkoutPage}" />
         </Tab>
         <Tab Title="Settings" Icon="settings.png">
             <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+        </Tab>
+        <Tab Title="Profile" Icon="profile.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
         </Tab>
     </TabBar>
 

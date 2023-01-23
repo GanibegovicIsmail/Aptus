@@ -109,6 +109,7 @@
 	  <None Remove="Resources\Images\maleshoulders.png" />
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\onearmshoulderpress.png" />
+	  <None Remove="Resources\Images\plus.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\pullup.png" />
 	  <None Remove="Resources\Images\quadextensions.png" />
@@ -364,6 +365,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="TabbedPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="WorkoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

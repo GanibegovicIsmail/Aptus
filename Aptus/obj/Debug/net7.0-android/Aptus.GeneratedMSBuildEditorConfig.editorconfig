@@ -421,3 +421,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.TabbedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = TabbedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = TabbedPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/WorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.WorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = WorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = WorkoutPage.xaml
