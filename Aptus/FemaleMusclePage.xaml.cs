@@ -1,8 +1,6 @@
 namespace Aptus;
-using Microsoft.Maui.Controls;
 
-
-public partial class FemaleMusclePage : TabbedPage
+public partial class FemaleMusclePage : Shell
 {
     public FemaleMusclePage()
     {
@@ -10,3 +8,4 @@ public partial class FemaleMusclePage : TabbedPage
     }
 
 }
+

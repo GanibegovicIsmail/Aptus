@@ -1,12 +1,11 @@
 namespace Aptus;
-using Microsoft.Maui.Controls;
 
-
-public partial class TabbedPage1 : TabbedPage
+public partial class TabbedPage : Shell
 {
-	public TabbedPage1()
-	{
-		InitializeComponent();
-	}
+    public TabbedPage()
+    {
+        InitializeComponent();
+    }
 
 }
+

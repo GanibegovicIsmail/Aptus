@@ -6,22 +6,22 @@
     <StackLayout>
 
         <VerticalStackLayout>
-            <Image
-            Source="defaultprofilepicture.png"
-            BackgroundColor="White"
-            HeightRequest="350"
-            WidthRequest="400"
-            ></Image>
-            <Button
-                Text="Change Profile Picture"
-                CornerRadius="0"
-                BackgroundColor="#364B51"
-                Opacity="0.5"></Button>
+            <Image x:Name="ProfilePicture"
+                   Source="defaultprofilepicture.png"
+                   BackgroundColor="White"
+                   HeightRequest="350"
+                   WidthRequest="400" />
+            <Button x:Name="ChangePictureButton"
+                    Text="Change Profile Picture"
+                    CornerRadius="0"
+                    BackgroundColor="#364B51"
+                    Opacity="0.5"
+                    />
         </VerticalStackLayout>
 
 
 
-    <StackLayout.Background>
+        <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>

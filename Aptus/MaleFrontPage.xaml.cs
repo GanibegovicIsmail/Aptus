@@ -11,6 +11,6 @@ public partial class MaleFrontPage : ContentPage
     }
     private void OnNextButtonClicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new TabbedPage1(), true);
+        Navigation.PushAsync(new TabbedPage(), true);
     }
 }

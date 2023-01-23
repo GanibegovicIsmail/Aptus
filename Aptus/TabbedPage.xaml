@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:local="clr-namespace:Aptus"
-            x:Class="Aptus.TabbedPage1"
-            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
-            android:TabbedPage.ToolbarPlacement="Bottom"
-            SelectedTabColor="#364B51"
-            UnselectedTabColor="White"
-            BarBackground="#A9B3B9"
-            NavigationPage.HasNavigationBar="False"
-            >
-    <local:MaleBodyParts IconImageSource="home.png" Title="Home" />
-    <local:SettingsPage IconImageSource="settings.png" Title="Settings" />
-    <local:ProfilePage IconImageSource="profile.png" Title="Profile"/>
-</TabbedPage>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Aptus"
+       x:Class="Aptus.TabbedPage"
+       Shell.NavBarIsVisible="False">
+
+    <TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MaleBodyParts}" />
+        </Tab>
+        <Tab Title="Products" Icon="profile.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+        <Tab Title="Settings" Icon="settings.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+        </Tab>
+    </TabBar>
+
+</Shell>
