@@ -35,10 +35,19 @@
     <MauiXaml Update="Exercises\ShouldersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="FemaleBodyParts.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FemaleFrontPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="FemaleMusclePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="FemaleProfilePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="FemaleSettingsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="GenderPage.xaml">

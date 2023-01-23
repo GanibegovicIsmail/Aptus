@@ -70,6 +70,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.ShouldersP
 build_metadata.AdditionalFiles.TargetPath = Exercises\ShouldersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Exercises\ShouldersPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleBodyParts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleBodyParts.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleBodyParts.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleBodyParts.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleFrontPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleFrontPage.xaml
@@ -81,6 +87,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleMusclePage.xaml
 build_metadata.AdditionalFiles.TargetPath = FemaleMusclePage.xaml
 build_metadata.AdditionalFiles.RelativePath = FemaleMusclePage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleProfilePage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleSettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleSettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FemaleSettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FemaleSettingsPage.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/GenderPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

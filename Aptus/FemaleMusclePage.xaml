@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Aptus.FemaleMusclePage"
-             Title="FemaleMusclePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
-</ContentPage>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Aptus"
+            x:Class="Aptus.FemaleMusclePage"
+            xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            SelectedTabColor="#364B51"
+            UnselectedTabColor="White"
+            BarBackground="#A9B3B9"
+            NavigationPage.HasNavigationBar="False"
+            >
+    <local:FemaleBodyParts IconImageSource="home.png" Title="Home" />
+    <local:FemaleSettingsPage IconImageSource="settings.png" Title="Settings" />
+    <local:FemaleProfilePage IconImageSource="profile.png" Title="Profile"/>
+</TabbedPage>

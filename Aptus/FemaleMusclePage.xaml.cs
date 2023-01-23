@@ -1,9 +1,12 @@
 namespace Aptus;
+using Microsoft.Maui.Controls;
 
-public partial class FemaleMusclePage : ContentPage
+
+public partial class FemaleMusclePage : TabbedPage
 {
-	public FemaleMusclePage()
-	{
-		InitializeComponent();
-	}
+    public FemaleMusclePage()
+    {
+        InitializeComponent();
+    }
+
 }
