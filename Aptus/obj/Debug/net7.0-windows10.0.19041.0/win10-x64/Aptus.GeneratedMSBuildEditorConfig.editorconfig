@@ -100,6 +100,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.BenchPre
 build_metadata.AdditionalFiles.TargetPath = Explanation\BenchPress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\BenchPress.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/BentOverRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.BentOverRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BentOverRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BentOverRaises.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/CableFlye.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.CableFlye.xaml
@@ -117,6 +123,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.CalvesRaisers.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\CalvesRaisers.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\CalvesRaisers.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/ChestSupportedLateralRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.ChestSupportedLateralRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ChestSupportedLateralRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ChestSupportedLateralRaises.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/Deadlift.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -148,6 +160,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellS
 build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellShrugs.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellShrugs.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/FacePulls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.FacePulls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\FacePulls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\FacePulls.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/GobletSquat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.GobletSquat.xaml
@@ -178,6 +196,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.InclineD
 build_metadata.AdditionalFiles.TargetPath = Explanation\InclineDumbellPress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\InclineDumbellPress.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/LateralRaises.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.LateralRaises.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\LateralRaises.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\LateralRaises.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/OneArmShoulderPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.OneArmShoulderPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\OneArmShoulderPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\OneArmShoulderPress.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/PullUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.PullUp.xaml
@@ -201,6 +231,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedDumbellFlyePress.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/ShoulderPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.ShoulderPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ShoulderPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ShoulderPress.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/Shrugs.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

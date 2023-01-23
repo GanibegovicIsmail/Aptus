@@ -3,8 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Xiaomi M2007J20CG (Android 11.0 - API 30)</ActiveDebugProfile>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <ActiveDebugProfile>Pixel 5 - API 33 (Android 13.0 - API 33)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
@@ -50,6 +50,9 @@
     <MauiXaml Update="Explanation\BenchPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\BentOverRaises.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\CableFlye.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -57,6 +60,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\CalvesRaisers.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\ChestSupportedLateralRaises.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\Deadlift.xaml">
@@ -74,6 +80,9 @@
     <MauiXaml Update="Explanation\DumbellShrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\FacePulls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\GobletSquat.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -89,6 +98,12 @@
     <MauiXaml Update="Explanation\InclineDumbellPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\LateralRaises.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\OneArmShoulderPress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\PullUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -99,6 +114,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\ShoulderPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\Shrugs.xaml">
