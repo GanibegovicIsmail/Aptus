@@ -50,10 +50,22 @@
     <MauiXaml Update="Explanation\CableFlye.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\CableRow.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\Deadlift.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\DeclinePress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\DumbellFlyes.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\DumbellPullover.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\DumbellShrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\InclineBenchPress.xaml">
@@ -62,7 +74,16 @@
     <MauiXaml Update="Explanation\InclineDumbellPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\PullUp.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\Shrugs.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\StandingCableRow.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\StandingDumbelFlye.xaml">

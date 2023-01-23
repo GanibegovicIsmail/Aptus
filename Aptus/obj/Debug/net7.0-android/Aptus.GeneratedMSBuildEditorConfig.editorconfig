@@ -104,6 +104,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.CableFly
 build_metadata.AdditionalFiles.TargetPath = Explanation\CableFlye.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\CableFlye.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/CableRow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.CableRow.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\CableRow.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\CableRow.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/Deadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Deadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\Deadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\Deadlift.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DeclinePress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DeclinePress.xaml
@@ -115,6 +127,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellFlyes.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellFlyes.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellFlyes.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellPullover.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellPullover.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellPullover.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellPullover.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellShrugs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellShrugs.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellShrugs.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellShrugs.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/InclineBenchPress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -128,11 +152,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.InclineD
 build_metadata.AdditionalFiles.TargetPath = Explanation\InclineDumbellPress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\InclineDumbellPress.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/PullUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.PullUp.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\PullUp.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\PullUp.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SeatedDumbellFlyePress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedDumbellFlyePress.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/Shrugs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Shrugs.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\Shrugs.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\Shrugs.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/StandingCableRow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.StandingCableRow.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\StandingCableRow.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\StandingCableRow.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/StandingDumbelFlye.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

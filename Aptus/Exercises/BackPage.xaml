@@ -53,6 +53,10 @@
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
 
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapPullUp"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -85,6 +89,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapCableRow"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -116,6 +125,10 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapDeadlit"/>
+                    </HorizontalStackLayout.GestureRecognizers>
                 </HorizontalStackLayout>
             </Frame>
 
@@ -147,6 +160,12 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapDumbellPullover"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -178,6 +197,10 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapDumbellShrugs"/>
+                    </HorizontalStackLayout.GestureRecognizers>
                 </HorizontalStackLayout>
             </Frame>
 
@@ -211,6 +234,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapShrugs"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -243,6 +271,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapStandingCableRow"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
