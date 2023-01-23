@@ -92,6 +92,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.ShouldersP
 build_metadata.AdditionalFiles.TargetPath = Exercises\ShouldersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Exercises\ShouldersPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/BarbellCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.BarbellCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BarbellCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BarbellCurls.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/BarbellHackSquat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.BarbellHackSquat.xaml
@@ -146,6 +152,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DeclineP
 build_metadata.AdditionalFiles.TargetPath = Explanation\DeclinePress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\DeclinePress.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellCurls.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellFlyes.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellFlyes.xaml
@@ -164,17 +176,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellS
 build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellShrugs.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellShrugs.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/EzBarCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.EzBarCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\EzBarCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\EzBarCurls.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/FacePulls.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.FacePulls.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\FacePulls.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\FacePulls.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/ForearmCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.ForearmCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\ForearmCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\ForearmCurls.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/GobletSquat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.GobletSquat.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\GobletSquat.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\GobletSquat.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/HammerCurls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.HammerCurls.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\HammerCurls.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\HammerCurls.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/HamstringCurls.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -248,6 +278,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Shrugs.x
 build_metadata.AdditionalFiles.TargetPath = Explanation\Shrugs.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\Shrugs.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SkullCrushers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SkullCrushers.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SkullCrushers.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SkullCrushers.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/Squats.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Squats.xaml
@@ -271,6 +307,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SumoDeadlift.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\SumoDeadlift.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\SumoDeadlift.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/TricepsPushDown.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.TricepsPushDown.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\TricepsPushDown.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\TricepsPushDown.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleBodyParts.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

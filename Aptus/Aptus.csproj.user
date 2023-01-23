@@ -44,6 +44,9 @@
     <MauiXaml Update="Exercises\ShouldersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\BarbellCurls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\BarbellHackSquat.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -71,6 +74,9 @@
     <MauiXaml Update="Explanation\DeclinePress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\DumbellCurls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\DumbellFlyes.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -80,10 +86,19 @@
     <MauiXaml Update="Explanation\DumbellShrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\EzBarCurls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\FacePulls.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\ForearmCurls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\GobletSquat.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\HammerCurls.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\HamstringCurls.xaml">
@@ -122,6 +137,9 @@
     <MauiXaml Update="Explanation\Shrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\SkullCrushers.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\Squats.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -132,6 +150,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\SumoDeadlift.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\TricepsPushDown.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="FemaleBodyParts.xaml">
