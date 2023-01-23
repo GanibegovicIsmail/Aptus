@@ -256,12 +256,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Romanian
 build_metadata.AdditionalFiles.TargetPath = Explanation\RomanianDeadlift.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\RomanianDeadlift.xaml
 
-[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SeatedDumbellFlyePress.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedDumbellFlyePress.xaml
-build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedDumbellFlyePress.xaml
-build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedDumbellFlyePress.xaml
-
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/ShoulderPress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.ShoulderPress.xaml

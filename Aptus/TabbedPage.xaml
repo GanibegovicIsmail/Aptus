@@ -7,7 +7,7 @@
 
     <TabBar>
         <Tab Title="Home" Icon="home.png">
-            <ShellContent ContentTemplate="{DataTemplate local:MaleBodyParts}" />
+            <ShellContent ContentTemplate="{DataTemplate local:MaleBodyParts}"/>
         </Tab>
         <Tab Title="Workout" Icon="plus.png">
             <ShellContent ContentTemplate="{DataTemplate local:WorkoutPage}" />

@@ -145,6 +145,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Include="..\.editorconfig" Link=".editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="BMIHeightPage.xaml.cs">
 	    <DependentUpon>BMIHeightPage.xaml</DependentUpon>
 	  </Compile>
@@ -287,9 +291,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\RomanianDeadlift.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\ShoulderPress.xaml">
