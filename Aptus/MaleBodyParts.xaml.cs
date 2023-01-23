@@ -6,7 +6,7 @@ public partial class MaleBodyParts : ContentPage
 	{
 		InitializeComponent();
 	}
-    void TapBenchPress(object sender, EventArgs e)
+    void TapChest(object sender, EventArgs e)
     {
         Navigation.PushAsync(new Exercises.BenchPress());
     }

@@ -109,6 +109,12 @@
 	  <Compile Update="BMIHeightPage.xaml.cs">
 	    <DependentUpon>BMIHeightPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Exercises\ChestPage.xaml.cs">
+	    <DependentUpon>ChestPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Exercises\BackPage.xaml.cs">
+	    <DependentUpon>BackPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="MaleFrontPage.xaml.cs">
 	    <DependentUpon>MaleFrontPage.xaml</DependentUpon>
 	  </Compile>
@@ -136,10 +142,19 @@
 	  <MauiXaml Update="BMIWeightPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Exercises\BenchPress.xaml">
+	  <MauiXaml Update="Exercises\ArmsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Exercises\InclineBenchPress.xaml">
+	  <MauiXaml Update="Exercises\ChestPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Exercises\BackPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Exercises\LegsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Exercises\ShouldersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="FemaleFrontPage.xaml">

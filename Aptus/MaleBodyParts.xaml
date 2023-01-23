@@ -34,7 +34,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                        <TapGestureRecognizer Tapped="TapChest"/>
                     </HorizontalStackLayout.GestureRecognizers>
 
                 </HorizontalStackLayout>
@@ -69,7 +69,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                        <TapGestureRecognizer Tapped="TapBack"/>
                     </HorizontalStackLayout.GestureRecognizers>
 
                 </HorizontalStackLayout>
@@ -104,7 +104,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                        <TapGestureRecognizer Tapped="TapLegs"/>
                     </HorizontalStackLayout.GestureRecognizers>
 
                 </HorizontalStackLayout>
@@ -139,7 +139,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                        <TapGestureRecognizer Tapped="TapShoulders"/>
                     </HorizontalStackLayout.GestureRecognizers>
 
                 </HorizontalStackLayout>
@@ -172,7 +172,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                        <TapGestureRecognizer Tapped="TapArms"/>
                     </HorizontalStackLayout.GestureRecognizers>
 
                 </HorizontalStackLayout>
