@@ -128,6 +128,9 @@
     <MauiXaml Update="Explanation\RomanianDeadlift.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\ShoulderPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

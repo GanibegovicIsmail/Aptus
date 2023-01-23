@@ -115,7 +115,6 @@
 	  <None Remove="Resources\Images\quadextensions.png" />
 	  <None Remove="Resources\Images\romaniandeadlift.png" />
 	  <None Remove="Resources\Images\search.png" />
-	  <None Remove="Resources\Images\seatedcablefly.png" />
 	  <None Remove="Resources\Images\seateddumbellfly.png" />
 	  <None Remove="Resources\Images\seatedlegcurl.png" />
 	  <None Remove="Resources\Images\settings.png" />
@@ -142,10 +141,6 @@
 
 	<ItemGroup>
 	  <MauiSplashScreen Include="Resources\Splash\logotext.png" BaseSize="80,80" Color="E9EDF1" BackgroundColor="87070E" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include="..\.editorconfig" Link=".editorconfig" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -291,6 +286,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\RomanianDeadlift.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\ShoulderPress.xaml">
