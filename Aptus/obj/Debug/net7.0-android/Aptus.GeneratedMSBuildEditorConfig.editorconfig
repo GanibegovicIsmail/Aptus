@@ -62,11 +62,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.ChestPage.
 build_metadata.AdditionalFiles.TargetPath = Exercises\ChestPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Exercises\ChestPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/GlutesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.GlutesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\GlutesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\GlutesPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/HamstringsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.HamstringsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\HamstringsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\HamstringsPage.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/LegsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.LegsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Exercises\LegsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Exercises\LegsPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/QuadsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.QuadsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\QuadsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\QuadsPage.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/ShouldersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
