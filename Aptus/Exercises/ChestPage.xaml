@@ -53,7 +53,11 @@
                         Padding="20,0,0,0"></Label>
                         </VerticalStackLayout>
 
-                    </HorizontalStackLayout>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
                 </Frame>
 
 
@@ -85,6 +89,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapInclineBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
                 </Frame>
 
@@ -116,6 +125,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+                    
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapDeclinePress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -147,6 +161,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapDumbellFlyes"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -178,6 +197,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapSeatedDumbellFlyePress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -210,6 +234,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapInclineDumbellPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -242,6 +271,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapCableFlye"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
@@ -273,6 +307,11 @@
                         Opacity="0.6"
                         Padding="20,0,0,0"></Label>
                     </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapStandingDumbelFlye"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
                 </HorizontalStackLayout>
             </Frame>
 
