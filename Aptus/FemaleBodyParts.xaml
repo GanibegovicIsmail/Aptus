@@ -175,7 +175,7 @@
                         Source="femalequads.png"
                         Scale="3.5"
                         Margin="20,0,0,0"
-                        TranslationY="-60"
+                        TranslationY="-50"
                         TranslationX="-10"
                         Opacity="1"
                         ></Image>

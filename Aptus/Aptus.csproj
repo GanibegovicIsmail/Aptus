@@ -56,7 +56,10 @@
 	  <None Remove="Resources\Images\buildmuscleclicked.png" />
 	  <None Remove="Resources\Images\buildstrengt.png" />
 	  <None Remove="Resources\Images\builldstrenghtclicked.png" />
+	  <None Remove="Resources\Images\cablefly.png" />
+	  <None Remove="Resources\Images\declinebench.png" />
 	  <None Remove="Resources\Images\defaultprofilepicture.png" />
+	  <None Remove="Resources\Images\dumbellflies.png" />
 	  <None Remove="Resources\Images\femalearms.png" />
 	  <None Remove="Resources\Images\femaleback.png" />
 	  <None Remove="Resources\Images\femaleclicked.png" />
@@ -86,6 +89,8 @@
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\search.png" />
+	  <None Remove="Resources\Images\seatedcablefly.png" />
+	  <None Remove="Resources\Images\seateddumbellfly.png" />
 	  <None Remove="Resources\Images\settings.png" />
 	  <None Remove="Resources\Images\smallcamera.png" />
 	  <None Remove="Resources\Splash\logotext.png" />
@@ -166,6 +171,9 @@
 	  <MauiXaml Update="Exercises\ShouldersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\BenchPress.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FemaleBodyParts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -217,10 +225,6 @@
 	  <MauiXaml Update="TabbedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Explanation\" />
 	</ItemGroup>
 
 </Project>

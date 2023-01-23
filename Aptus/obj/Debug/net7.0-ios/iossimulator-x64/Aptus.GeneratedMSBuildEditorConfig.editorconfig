@@ -88,6 +88,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.ShouldersP
 build_metadata.AdditionalFiles.TargetPath = Exercises\ShouldersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Exercises\ShouldersPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/BenchPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.BenchPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\BenchPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\BenchPress.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleBodyParts.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleBodyParts.xaml

@@ -2,11 +2,31 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Aptus.FemaleProfilePage"
-             Title="FemaleProfilePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+
+        <VerticalStackLayout>
+            <Image
+            Source="defaultprofilepicture.png"
+            BackgroundColor="White"
+            HeightRequest="350"
+            WidthRequest="400"
+            ></Image>
+            <Button
+                Text="Change Profile Picture"
+                CornerRadius="0"
+                BackgroundColor="#364B51"
+                Opacity="0.5"></Button>
+        </VerticalStackLayout>
+
+
+
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+    </StackLayout>
 </ContentPage>
+
