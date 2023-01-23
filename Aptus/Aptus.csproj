@@ -51,6 +51,7 @@
 	  <None Remove="Resources\Fonts\ArialRoundedMTBold.ttf" />
 	  <None Remove="Resources\Fonts\arlrdbd.ttf" />
 	  <None Remove="Resources\Images\back.png" />
+	  <None Remove="Resources\Images\barbellhacksquat.png" />
 	  <None Remove="Resources\Images\benchpress.png" />
 	  <None Remove="Resources\Images\buildmuscle.png" />
 	  <None Remove="Resources\Images\buildmuscleclicked.png" />
@@ -58,11 +59,13 @@
 	  <None Remove="Resources\Images\builldstrenghtclicked.png" />
 	  <None Remove="Resources\Images\cablefly.png" />
 	  <None Remove="Resources\Images\cablerow.png" />
+	  <None Remove="Resources\Images\calvesraises.png" />
 	  <None Remove="Resources\Images\deadlift.png" />
 	  <None Remove="Resources\Images\declinebench.png" />
 	  <None Remove="Resources\Images\defaultprofilepicture.png" />
 	  <None Remove="Resources\Images\dumbellflies.png" />
 	  <None Remove="Resources\Images\dumbellpullover.png" />
+	  <None Remove="Resources\Images\dumbellromaniandeadlift.png" />
 	  <None Remove="Resources\Images\dumbellshrugs.png" />
 	  <None Remove="Resources\Images\femalearms.png" />
 	  <None Remove="Resources\Images\femaleback.png" />
@@ -72,8 +75,13 @@
 	  <None Remove="Resources\Images\femalepng.png" />
 	  <None Remove="Resources\Images\femalequads.png" />
 	  <None Remove="Resources\Images\finallogo.png" />
+	  <None Remove="Resources\Images\gobletsquat.png" />
+	  <None Remove="Resources\Images\hamstringcurls.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\horizontallegpress.png" />
 	  <None Remove="Resources\Images\inclinebenchpress.jpg" />
+	  <None Remove="Resources\Images\leglunges.png" />
+	  <None Remove="Resources\Images\legpress.png" />
 	  <None Remove="Resources\Images\loading1.png" />
 	  <None Remove="Resources\Images\loading2.png" />
 	  <None Remove="Resources\Images\loading3.png" />
@@ -93,13 +101,18 @@
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\pullup.png" />
+	  <None Remove="Resources\Images\quadextensions.png" />
+	  <None Remove="Resources\Images\romaniandeadlift.png" />
 	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Images\seatedcablefly.png" />
 	  <None Remove="Resources\Images\seateddumbellfly.png" />
+	  <None Remove="Resources\Images\seatedlegcurl.png" />
 	  <None Remove="Resources\Images\settings.png" />
 	  <None Remove="Resources\Images\shrugs.png" />
 	  <None Remove="Resources\Images\smallcamera.png" />
+	  <None Remove="Resources\Images\squats.png" />
 	  <None Remove="Resources\Images\standingcablerow.png" />
+	  <None Remove="Resources\Images\sumodeadlift.png" />
 	  <None Remove="Resources\Splash\logotext.png" />
 	</ItemGroup>
 
@@ -178,6 +191,9 @@
 	  <MauiXaml Update="Exercises\ShouldersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\BarbellHackSquat.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Explanation\BenchPress.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -185,6 +201,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\CableRow.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\CalvesRaisers.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\Deadlift.xaml">
@@ -202,6 +221,15 @@
 	  <MauiXaml Update="Explanation\DumbellShrugs.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\GobletSquat.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\HamstringCurls.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\HorizontalLegPress.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Explanation\InclineBenchPress.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -211,10 +239,19 @@
 	  <MauiXaml Update="Explanation\PullUp.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\QuadExtensions.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\RomanianDeadlift.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\Shrugs.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Explanation\Squats.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Explanation\StandingCableRow.xaml">

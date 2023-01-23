@@ -44,6 +44,9 @@
     <MauiXaml Update="Exercises\ShouldersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\BarbellHackSquat.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\BenchPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -51,6 +54,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\CableRow.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\CalvesRaisers.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\Deadlift.xaml">
@@ -68,6 +74,15 @@
     <MauiXaml Update="Explanation\DumbellShrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\GobletSquat.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\HamstringCurls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\HorizontalLegPress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\InclineBenchPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -77,10 +92,19 @@
     <MauiXaml Update="Explanation\PullUp.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\QuadExtensions.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\RomanianDeadlift.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\Shrugs.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\Squats.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\StandingCableRow.xaml">
