@@ -182,7 +182,7 @@
                         ></Image>
                     <VerticalStackLayout>
                         <Label
-                        Text="Seated dumbell flyes"
+                        Text="Seated cable flyes"
                         TextColor="#364B51"
                         FontFamily="Arial"
                         FontAttributes="Bold"
@@ -278,46 +278,6 @@
 
                 </HorizontalStackLayout>
             </Frame>
-
-
-            <Frame 
-                    Margin="20,0,20,20"
-                    HeightRequest="100"
-                    CornerRadius="27">
-                <HorizontalStackLayout>
-                    <Image
-                        Source="stadingdumbellfly.png"
-                        Scale="1.5"
-                        Margin="20,0,0,0"
-                        ></Image>
-                    <VerticalStackLayout>
-                        <Label
-                        Text="Standing dumbell flye"
-                        TextColor="#364B51"
-                        FontFamily="Arial"
-                        FontAttributes="Bold"
-                        FontSize="18"
-                        VerticalOptions="Center"
-                        Padding="20,10,0,0"></Label>
-                        <Label
-                        Text="Overall good chest builder "
-                        TextColor="#364B51"
-                        FontFamily="ArialRoundedMTBold"
-                        FontSize="10"
-                        Opacity="0.6"
-                        Padding="20,0,0,0"></Label>
-                    </VerticalStackLayout>
-
-                    <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapStandingDumbelFlye"/>
-                    </HorizontalStackLayout.GestureRecognizers>
-
-                </HorizontalStackLayout>
-            </Frame>
-
-
-
-
 
 
 
