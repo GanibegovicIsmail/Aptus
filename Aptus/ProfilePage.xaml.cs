@@ -1,9 +1,15 @@
-namespace Aptus;
+using Aptus;
+using System;
 
-public partial class ProfilePage : ContentPage
+namespace Aptus
 {
-	public ProfilePage()
-	{
-		InitializeComponent();
-	}
+    public partial class ProfilePage : ContentPage
+    {
+        public ProfilePage()
+        {
+            InitializeComponent();
+            EmailLabel.Text = UserSession.Email;
+            UsernameLabel.Text = UserSession.Username;
+        }
+    }
 }

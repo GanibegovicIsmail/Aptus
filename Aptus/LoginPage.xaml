@@ -4,17 +4,15 @@
              x:Class="Aptus.LoginPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
-
         <HorizontalStackLayout Margin="50,120,0,220" 
                                Spacing="70" >
-            
+
             <ImageButton Padding="0,0,0,2"
                          Source="back.png" 
                          WidthRequest="45" 
-                         HeightRequest="30" 
-                         Clicked="OnBackButton5Clicked"></ImageButton>
+                         HeightRequest="30" ></ImageButton>
 
-                  <Label Text="Log In" 
+            <Label Text="Log In" 
                          TextColor="White" 
                          FontSize="20" 
                          FontAttributes="Bold" 
@@ -32,12 +30,12 @@
             </StackLayout>
 
             <StackLayout Margin="35,10,35,0">
-                 <Entry x:Name="PasswordEntry" 
+                <Entry x:Name="PasswordEntry" 
                            Placeholder="Password" 
                            IsPassword="True" 
-                           PlaceholderColor="White" 
-                           Margin="20,0,20,0"
-                           TextColor="{x:StaticResource White}"/>
+                           PlaceholderColor="White"
+                                              Margin="20,0,20,0"
+                       TextColor="{x:StaticResource White}"/>
             </StackLayout>
 
             <StackLayout Margin="35,100,35,0">
@@ -57,18 +55,18 @@
         <HorizontalStackLayout Spacing="15" 
                                HorizontalOptions="Center" 
                                Padding="0,10,0,0">
-            
+
             <Label Text="Don't have an account?" 
                    TextColor="White" 
                    FontSize="13"></Label>
-            
+
             <Label Text="Sign Up" 
                    FontSize="13" 
                    FontAttributes="Bold" 
                    TextColor="#364B51" 
                    VerticalTextAlignment="End"/>
-            
-           <HorizontalStackLayout.GestureRecognizers>
+
+            <HorizontalStackLayout.GestureRecognizers>
                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_For_SignUp"/>
             </HorizontalStackLayout.GestureRecognizers>
         </HorizontalStackLayout>
@@ -82,4 +80,5 @@
 
     </StackLayout>
 </ContentPage>
+
 

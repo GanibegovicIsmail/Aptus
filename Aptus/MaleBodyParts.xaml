@@ -30,7 +30,7 @@
             Margin="20,40,20,20"
             HeightRequest="180"
             CornerRadius="50"
-            BackgroundColor="White">
+            BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
                     <Frame
@@ -96,7 +96,7 @@
             Margin="20,0,20,20"
             HeightRequest="180"
             CornerRadius="50"
-            BackgroundColor="White">
+            BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
                     <Frame
@@ -163,7 +163,7 @@
             Margin="20,0,20,20"
             HeightRequest="180"
             CornerRadius="50"
-            BackgroundColor="White">
+            BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
                     <Frame
@@ -231,7 +231,7 @@
             Margin="20,0,20,20"
             HeightRequest="180"
             CornerRadius="50"
-            BackgroundColor="White">
+            BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
                     <Frame
@@ -299,7 +299,7 @@
             Margin="20,0,20,20"
             HeightRequest="180"
             CornerRadius="50"
-            BackgroundColor="White">
+            BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
                     <Frame
