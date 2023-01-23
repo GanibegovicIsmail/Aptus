@@ -226,6 +226,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.Standing
 build_metadata.AdditionalFiles.TargetPath = Explanation\StandingDumbelFlye.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\StandingDumbelFlye.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SumoDeadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SumoDeadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SumoDeadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SumoDeadlift.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleBodyParts.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleBodyParts.xaml

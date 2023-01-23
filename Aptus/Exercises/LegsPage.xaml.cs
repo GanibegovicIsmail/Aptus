@@ -47,5 +47,10 @@ public partial class LegsPage : ContentPage
         Navigation.PushAsync(new Explanation.QuadExtensions());
     }
 
+    void TapSumoDeadlift(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Explanation.SumoDeadlift());
+    }
+
 
 }

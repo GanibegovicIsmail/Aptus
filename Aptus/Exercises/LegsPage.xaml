@@ -68,7 +68,7 @@
                     CornerRadius="27">
                 <HorizontalStackLayout>
                     <Image
-                        Source="calvesraisers.png"
+                        Source="calvesraises.png"
                         Scale="1.3"
                         Margin="20,0,0,0"
                         ></Image>
@@ -105,7 +105,7 @@
                 <HorizontalStackLayout>
                     <Image
                         Source="dumbellromaniandeadlift.png"
-                        Scale="1.7"
+                        Scale="1.5"
                         Margin="20,0,0,0"
                         ></Image>
                     <VerticalStackLayout>
@@ -146,7 +146,7 @@
                         ></Image>
                     <VerticalStackLayout>
                         <Label
-                        Text="GobletSquat"
+                        Text="Goblet Squat"
                         TextColor="#364B51"
                         FontFamily="Arial"
                         FontAttributes="Bold"
@@ -250,8 +250,8 @@
                     CornerRadius="27">
                 <HorizontalStackLayout>
                     <Image
-                        Source="squat.png"
-                        Scale="1.5"
+                        Source="squats.png"
+                        Scale="1.2"
                         Margin="20,0,0,0"
                         ></Image>
                     <VerticalStackLayout>
@@ -279,6 +279,41 @@
                 </HorizontalStackLayout>
             </Frame>
 
+            <Frame 
+                    Margin="20,0,20,20"
+                    HeightRequest="100"
+                    CornerRadius="27">
+                <HorizontalStackLayout>
+                    <Image
+                        Source="sumodeadlift.png"
+                        Scale="1.2"
+                        Margin="20,0,0,0"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="Sumo deadlift"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        VerticalOptions="Center"
+                        Padding="20,10,0,0"></Label>
+                        <Label
+                        Text="Overall amazing leg builder "
+                        TextColor="#364B51"
+                        FontFamily="ArialRoundedMTBold"
+                        FontSize="10"
+                        Opacity="0.6"
+                        Padding="20,0,0,0"></Label>
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapSumoDeadlift"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
 
             <Frame 
                     Margin="20,0,20,20"
@@ -287,7 +322,7 @@
                 <HorizontalStackLayout>
                     <Image
                         Source="quadextensions.png"
-                        Scale="1.5"
+                        Scale="1.2"
                         Margin="20,0,0,0"
                         ></Image>
                     <VerticalStackLayout>

@@ -260,6 +260,9 @@
 	  <MauiXaml Update="Explanation\StandingDumbelFlye.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\SumoDeadlift.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FemaleBodyParts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

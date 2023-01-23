@@ -4005,3 +4005,16 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\dr
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\pullup.png
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\shrugs.png
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\standingcablerow.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\barbellhacksquat.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\calvesraises.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\dumbellromaniandeadlift.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\gobletsquat.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\hamstringcurls.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\horizontallegpress.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\leglunges.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\legpress.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\quadextensions.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\romaniandeadlift.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\seatedlegcurl.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\squats.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\sumodeadlift.png

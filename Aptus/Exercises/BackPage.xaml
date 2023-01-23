@@ -127,7 +127,7 @@
                     </VerticalStackLayout>
 
                     <HorizontalStackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapDeadlit"/>
+                        <TapGestureRecognizer Tapped="TapDeadlift"/>
                     </HorizontalStackLayout.GestureRecognizers>
                 </HorizontalStackLayout>
             </Frame>
