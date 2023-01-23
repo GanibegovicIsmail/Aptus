@@ -57,9 +57,13 @@
 	  <None Remove="Resources\Images\buildstrengt.png" />
 	  <None Remove="Resources\Images\builldstrenghtclicked.png" />
 	  <None Remove="Resources\Images\cablefly.png" />
+	  <None Remove="Resources\Images\cablerow.png" />
+	  <None Remove="Resources\Images\deadlift.png" />
 	  <None Remove="Resources\Images\declinebench.png" />
 	  <None Remove="Resources\Images\defaultprofilepicture.png" />
 	  <None Remove="Resources\Images\dumbellflies.png" />
+	  <None Remove="Resources\Images\dumbellpullover.png" />
+	  <None Remove="Resources\Images\dumbellshrugs.png" />
 	  <None Remove="Resources\Images\femalearms.png" />
 	  <None Remove="Resources\Images\femaleback.png" />
 	  <None Remove="Resources\Images\femaleclicked.png" />
@@ -88,11 +92,14 @@
 	  <None Remove="Resources\Images\maleshoulders.png" />
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\profile.png" />
+	  <None Remove="Resources\Images\pullup.png" />
 	  <None Remove="Resources\Images\search.png" />
 	  <None Remove="Resources\Images\seatedcablefly.png" />
 	  <None Remove="Resources\Images\seateddumbellfly.png" />
 	  <None Remove="Resources\Images\settings.png" />
+	  <None Remove="Resources\Images\shrugs.png" />
 	  <None Remove="Resources\Images\smallcamera.png" />
+	  <None Remove="Resources\Images\standingcablerow.png" />
 	  <None Remove="Resources\Splash\logotext.png" />
 	</ItemGroup>
 

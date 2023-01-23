@@ -3998,3 +3998,10 @@ C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\dr
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\dumbellflies.png
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\seatedcablefly.png
 C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\seateddumbellfly.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\cablerow.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\deadlift.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\dumbellpullover.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\dumbellshrugs.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\pullup.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\shrugs.png
+C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-android\resizetizer\r\drawable\standingcablerow.png
