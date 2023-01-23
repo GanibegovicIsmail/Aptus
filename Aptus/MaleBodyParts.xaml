@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aptus.MaleBodyParts"
+             Title="MaleBodyParts"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <StackLayout>
+
+            <Frame 
+            Margin="20,40,20,20"
+            HeightRequest="100"
+            CornerRadius="27"
+            >
+                <HorizontalStackLayout>
+                    <Image
+                        Source="malechest.png"
+                        Scale="5"
+                        Margin="20,0,0,0"
+                        TranslationY="80"
+                        Opacity="1"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="CHEST"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Padding="50,5,0,0"></Label>
+
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+
+
+            <Frame 
+            Margin="20,0,20,20"
+            HeightRequest="100"
+            CornerRadius="27"
+            >
+                <HorizontalStackLayout>
+                    <Image
+                        Source="maleback.png"
+                        Scale="4"
+                        Margin="20,0,0,0"
+                        TranslationY="50"
+                        Opacity="1"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="BACK"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Padding="50,5,0,0"></Label>
+
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+
+
+            <Frame 
+            Margin="20,0,20,20"
+            HeightRequest="100"
+            CornerRadius="27"
+            >
+                <HorizontalStackLayout>
+                    <Image
+                        Source="malelegs.png"
+                        Scale="4"
+                        Margin="20,0,0,0"
+                        TranslationY="-20"
+                        Opacity="1"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="LEGS"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Padding="50,5,0,0"></Label>
+
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+
+
+            <Frame 
+            Margin="20,0,20,20"
+            HeightRequest="100"
+            CornerRadius="27"
+            >
+                <HorizontalStackLayout>
+                    <Image
+                        Source="maleshoulders.png"
+                        Scale="5"
+                        Margin="20,0,0,0"
+                        TranslationY="80"
+                        Opacity="1"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="SHOULDERS"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Padding="50,5,0,0"></Label>
+
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame 
+            Margin="20,0,20,20"
+            HeightRequest="100"
+            CornerRadius="27"
+            >
+                <HorizontalStackLayout>
+                    <Image
+                        Source="malearms.png"
+                        Scale="5"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Opacity="0.2"
+                        ></Image>
+                    <VerticalStackLayout>
+                        <Label
+                        Text="ARMS"
+                        TextColor="#364B51"
+                        FontFamily="Arial"
+                        FontAttributes="Bold"
+                        FontSize="35"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                       ></Label>
+
+                    </VerticalStackLayout>
+
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapBenchPress"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+
+
+
+
+
+            <StackLayout.Background>
+                <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                    <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                    <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                </LinearGradientBrush>
+            </StackLayout.Background>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

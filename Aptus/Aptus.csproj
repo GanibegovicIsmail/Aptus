@@ -51,6 +51,7 @@
 	  <None Remove="Resources\Fonts\ArialRoundedMTBold.ttf" />
 	  <None Remove="Resources\Fonts\arlrdbd.ttf" />
 	  <None Remove="Resources\Images\back.png" />
+	  <None Remove="Resources\Images\benchpress.png" />
 	  <None Remove="Resources\Images\buildmuscle.png" />
 	  <None Remove="Resources\Images\buildmuscleclicked.png" />
 	  <None Remove="Resources\Images\buildstrengt.png" />
@@ -65,6 +66,7 @@
 	  <None Remove="Resources\Images\femalequads.png" />
 	  <None Remove="Resources\Images\finallogo.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\inclinebenchpress.jpg" />
 	  <None Remove="Resources\Images\loading1.png" />
 	  <None Remove="Resources\Images\loading2.png" />
 	  <None Remove="Resources\Images\loading3.png" />
@@ -97,7 +99,6 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="SQLite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.4" />
-		<PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -135,6 +136,12 @@
 	  <MauiXaml Update="BMIWeightPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Exercises\BenchPress.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Exercises\InclineBenchPress.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="FemaleFrontPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -148,6 +155,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="GoalsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MaleBodyParts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MaleFrontPage.xaml">
@@ -174,10 +184,6 @@
 	  <MauiXaml Update="TabbedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="ExercisePages\" />
 	</ItemGroup>
 
 </Project>

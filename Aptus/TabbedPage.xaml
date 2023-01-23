@@ -10,7 +10,7 @@
             BarBackground="#A9B3B9"
             NavigationPage.HasNavigationBar="False"
             >
-    <local:MaleMusclePage IconImageSource="home.png" Title="Home" />
+    <local:MaleBodyParts IconImageSource="home.png" Title="Home" />
     <local:SettingsPage IconImageSource="settings.png" Title="Settings" />
     <local:ProfilePage IconImageSource="profile.png" Title="Profile"/>
 </TabbedPage>

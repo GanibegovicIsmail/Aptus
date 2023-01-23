@@ -1,3 +1,4 @@
+
 namespace Aptus;
 
 public partial class MaleMusclePage : ContentPage
@@ -6,4 +7,6 @@ public partial class MaleMusclePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+
 }

@@ -1,4 +1,5 @@
 ﻿obj\Debug\net7.0-android\resizetizer\r\drawable\back.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\benchpress.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\buildmuscle.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\buildmuscleclicked.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\buildstrengt.png
@@ -13,6 +14,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable\femalepng.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\femalequads.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\finallogo.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\inclinebenchpress.jpg
 obj\Debug\net7.0-android\resizetizer\r\drawable\loading1.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\loading2.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\loading3.png

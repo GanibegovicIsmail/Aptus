@@ -20,6 +20,12 @@
     <MauiXaml Update="BMIWeightPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Exercises\BenchPress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Exercises\InclineBenchPress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FemaleFrontPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -30,6 +36,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="GoalsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MaleBodyParts.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="MaleFrontPage.xaml">

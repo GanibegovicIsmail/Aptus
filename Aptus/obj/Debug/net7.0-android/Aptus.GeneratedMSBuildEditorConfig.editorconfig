@@ -44,6 +44,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.BMIWeightPage.xaml
 build_metadata.AdditionalFiles.TargetPath = BMIWeightPage.xaml
 build_metadata.AdditionalFiles.RelativePath = BMIWeightPage.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/BenchPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.BenchPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\BenchPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\BenchPress.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/InclineBenchPress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.InclineBenchPress.xaml
+build_metadata.AdditionalFiles.TargetPath = Exercises\InclineBenchPress.xaml
+build_metadata.AdditionalFiles.RelativePath = Exercises\InclineBenchPress.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/FemaleFrontPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.FemaleFrontPage.xaml
@@ -79,6 +91,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/MaleBodyParts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.MaleBodyParts.xaml
+build_metadata.AdditionalFiles.TargetPath = MaleBodyParts.xaml
+build_metadata.AdditionalFiles.RelativePath = MaleBodyParts.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/MaleFrontPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
