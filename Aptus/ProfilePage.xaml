@@ -15,6 +15,17 @@
                          HorizontalOptions="CenterAndExpand"/>
         </HorizontalStackLayout>
         <StackLayout>
+
+            <StackLayout>
+                <Image x:Name="ProfilePicture" />
+                <!-- Other elements of the page -->
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="AddPictureButton" Text="Add Picture" Clicked="AddPictureButton_Clicked"/>
+                <!-- Other elements of the page -->
+            </StackLayout>
+
+
             <StackLayout Margin="35,55,35,0">
                 <Label x:Name="EmailLabel"
                        TextColor="{x:StaticResource White}"/>

@@ -143,6 +143,10 @@
               "version": "[1.1.0-alpha03, )",
               "autoReferenced": true
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.6.1.1, )",
@@ -223,6 +227,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             }
           },
           "imports": [
@@ -294,6 +302,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             }
           },
           "imports": [
@@ -382,6 +394,10 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             }
           },
           "imports": [

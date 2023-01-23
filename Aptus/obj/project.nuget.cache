@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dd5dr/iuopeZ5xWcJp2tWgNiK2SG43Enm5wGjCUhj/G6xOJIA5tvmttgg216Kf38vS1kSU+3HoV1p6V/A26GWQ==",
+  "dgSpecHash": "mT9+JBp1K6GnRTmQlLZRlAemlQyWBU75o4zpi0nY9wxs29lZ5OPHtt+Hgmmn20463rZEfAsq809le4AlSS2EiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mejrima\\Desktop\\Aptus 2\\Aptus\\Aptus.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Mejrima\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.4\\sqlitepclraw.provider.sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Mejrima\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
@@ -101,6 +102,7 @@
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.14\\xamarin.androidx.viewpager.1.0.0.14.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.16\\xamarin.androidx.viewpager2.1.0.0.16.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.androidx.window\\1.0.0.9\\xamarin.androidx.window.1.0.0.9.nupkg.sha512",
+    "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.essentials\\1.7.4\\xamarin.essentials.1.7.4.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.google.android.material\\1.6.1.1\\xamarin.google.android.material.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.google.crypto.tink.android\\1.7.0\\xamarin.google.crypto.tink.android.1.7.0.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.9\\xamarin.google.guava.listenablefuture.1.0.0.9.nupkg.sha512",
