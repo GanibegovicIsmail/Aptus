@@ -6,21 +6,26 @@
              NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout>
-            <Frame
-                Background="White"
-                Opacity="0.3">
-                <Label
-                Text="Target"
+
+            <Label
+                Text="TARGET"
                 FontSize="30"
-                FontFamily="ArialRoundedMTBold"
+                FontFamily="Arial"
                 FontAttributes="Bold"
-                TextColor="#364B51"
+                TextColor="White"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
-                Margin="0,30,0,20">
-                
+                Margin="0,50,0,20">
             </Label>
-            </Frame>
+
+            <StackLayout
+                BackgroundColor="White"
+                WidthRequest="300"
+                HeightRequest="1"
+                Opacity="0.5">
+
+            </StackLayout>
+            
             <Frame 
             Margin="20,40,20,20"
             HeightRequest="180"
