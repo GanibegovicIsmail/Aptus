@@ -1,8 +1,8 @@
 namespace Aptus.Exercises;
 
-public partial class InclineBenchPress : ContentPage
+public partial class BackPage : ContentPage
 {
-	public InclineBenchPress()
+	public BackPage()
 	{
 		InitializeComponent();
 	}

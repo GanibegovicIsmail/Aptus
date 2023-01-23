@@ -1,8 +1,8 @@
 namespace Aptus.Exercises;
 
-public partial class BenchPress : ContentPage
+public partial class ChestPage : ContentPage
 {
-	public BenchPress()
+	public ChestPage()
 	{
 		InitializeComponent();
 	}
