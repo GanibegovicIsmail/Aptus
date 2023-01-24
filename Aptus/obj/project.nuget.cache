@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mT9+JBp1K6GnRTmQlLZRlAemlQyWBU75o4zpi0nY9wxs29lZ5OPHtt+Hgmmn20463rZEfAsq809le4AlSS2EiA==",
+  "dgSpecHash": "TScWdYVfHLrFk8o1lhnjD2SI7IedWhCzLjaYZ8ei4Zf1FsNwTHPVq5pZ3bqgUZ2J13o1xWs/o2BzUDW6udNSAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mejrima\\Desktop\\Aptus 2\\Aptus\\Aptus.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+    "C:\\Users\\Mejrima\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Mejrima\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

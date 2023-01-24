@@ -4,43 +4,107 @@
              x:Class="Aptus.ProfilePage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
-        <HorizontalStackLayout Margin="50,120,0,220" 
-                               Spacing="70" >
-
-            <Label Text="Profile" 
-                         TextColor="White" 
-                         FontSize="20" 
-                         FontAttributes="Bold" 
-                         Margin="0,0,0,10" 
-                         HorizontalOptions="CenterAndExpand"/>
-        </HorizontalStackLayout>
-        <StackLayout>
-
+        <StackLayout Padding="20"
+                     BackgroundColor="#AA364B51"
+                     Spacing="20"
+                     Orientation="Vertical">
             <StackLayout>
-                <Image x:Name="ProfilePicture" />
-                <!-- Other elements of the page -->
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout>
+                        <Frame
+                            CornerRadius="200"
+                            WidthRequest="130"
+                            HeightRequest="130">
+                            <Image x:Name="ProfileImage"
+                               Source="defaultprofilepicture.png"
+                               WidthRequest="100"
+                               HeightRequest="100"
+                               Aspect="AspectFill"
+                               Margin="0,0,0,0"
+                               />
+                        </Frame>
+                        <Button x:Name="ChangePictureButton"
+                                Text="Change Picture"
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                      />
+                    </StackLayout>
+                    <StackLayout>
+                        <Label x:Name="UsernameLabel"
+                               Text="{Binding Username}"
+                               TextColor="White"
+                               FontSize="24"
+                               FontAttributes="Bold"/>
+                        <Label x:Name="EmailLabel"
+                               Text="{Binding Email}"
+                               TextColor="White"
+                               FontSize="18"/>
+                    </StackLayout>
+                </StackLayout>
             </StackLayout>
             <StackLayout>
-                <Button x:Name="AddPictureButton" Text="Add Picture" Clicked="AddPictureButton_Clicked"/>
-                <!-- Other elements of the page -->
-            </StackLayout>
+                <Label Text="Change Password"
+                       TextColor="White"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       Margin="0,0,0,10"
+                       HorizontalOptions="CenterAndExpand"/>
+                <StackLayout>
+                    <StackLayout Margin="35,55,35,0">
+                        <Entry x:Name="OldPasswordEntry"
+                               Placeholder="Old Password"
+                               PlaceholderColor="White"
+                               Margin="20,0,20,0"
+                               TextColor="{x:StaticResource White}"/>
+                    </StackLayout>
+                    <StackLayout Margin="35,10,35,0">
+                        <Entry x:Name="NewPasswordEntry"
+                               Placeholder="New Password"
+                               IsPassword="True"
+                               PlaceholderColor="White"
+                               Margin="20,0,20,0"
+                               TextColor="{x:StaticResource White}"/>
+                    </StackLayout>
+                    <StackLayout Margin="35,10,35,0">
+                        <Entry x:Name="ConfirmPasswordEntry"
+                               Placeholder="Confirm Password"
+                               IsPassword="True"
+                               PlaceholderColor="White"
+                               Margin="20,0,20,0"
+                               TextColor="{x:StaticResource White}"/>
+                    </StackLayout>
 
 
-            <StackLayout Margin="35,55,35,0">
-                <Label x:Name="EmailLabel"
-                       TextColor="{x:StaticResource White}"/>
-            </StackLayout>
-            <StackLayout Margin="35,10,35,0">
-                <Label x:Name="UsernameLabel"
-                       TextColor="{x:StaticResource White}"/>
+                </StackLayout>
+                <StackLayout Margin="35,10,35,0">
+                    <Button x:Name="ChangePasswordButton"
+                            Text="Change Password"
+                            HeightRequest="60"
+                            WidthRequest="295"
+                            CornerRadius="20"
+                            BackgroundColor="#AA364B51"
+                            TextColor="#BFC4C6"
+                            FontFamily="Arial"
+                            FontAttributes="Bold"
+                            FontSize="13"
+                         />
+                </StackLayout>
             </StackLayout>
         </StackLayout>
-        <StackLayout.Background>
-            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
-                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
-            </LinearGradientBrush>
-        </StackLayout.Background>
+        
+            <StackLayout.Background>
+        <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+            <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+            <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+        </LinearGradientBrush>
+    </StackLayout.Background>
+        
     </StackLayout>
 </ContentPage>
+
+
+
+
+
+
 
