@@ -6,10 +6,16 @@ using Aptus.Data;
 using Aptus.Models;
 using Microsoft.Maui;
 
+
 namespace Aptus
 {
     public partial class ProfilePage : ContentPage
     {
+        private double height = 0;
+        private double weight = 0;
+        private double _bmi;
+        private string _classification;
+
         private SQLiteAsyncConnection _connection;
         private Database _database;
         public ProfilePage()
@@ -68,6 +74,44 @@ namespace Aptus
                     await DisplayAlert("Error", "Incorrect old password", "OK");
                 }
             }
+        }
+
+
+        private void OnValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            height = e.NewValue;
+            HeightLabel.Text = string.Format("{0:F0} cm", height);
+            UpdateBmi();
+        }
+
+        private void OnValue2Changed(object sender, ValueChangedEventArgs e)
+        {
+            weight = e.NewValue;
+            WeightLabel.Text = string.Format("{0:F0} kg", weight);
+            UpdateBmi();
+        }
+
+        private void UpdateBmi()
+        {
+            _bmi = Math.Round(weight / (height / 100 * height / 100), 2);
+            BmiValueLabel.Text = _bmi.ToString();
+            if (_bmi < 18.5)
+            {
+                _classification = "Underweight";
+            }
+            else if (_bmi >= 18.5 && _bmi <= 24.9)
+            {
+                _classification = "Normal weight";
+            }
+            else if (_bmi >= 25 && _bmi <= 29.9)
+            {
+                _classification = "Overweight";
+            }
+            else
+            {
+                _classification = "Obesity";
+            }
+            ClassificationLabel.Text = _classification;
         }
     }
 }
