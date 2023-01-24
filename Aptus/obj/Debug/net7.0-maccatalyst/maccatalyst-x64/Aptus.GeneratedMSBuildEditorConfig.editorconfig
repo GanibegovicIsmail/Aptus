@@ -238,6 +238,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.LateralR
 build_metadata.AdditionalFiles.TargetPath = Explanation\LateralRaises.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\LateralRaises.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/LegLunges.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.LegLunges.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\LegLunges.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\LegLunges.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/OneArmShoulderPress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.OneArmShoulderPress.xaml
@@ -267,6 +273,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedDumbellFlyePress.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedDumbellFlyePress.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SeatedLegCurk.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedLegCurk.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedLegCurk.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedLegCurk.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/SeatedLegCurl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.SeatedLegCurl.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\SeatedLegCurl.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\SeatedLegCurl.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/ShoulderPress.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -119,6 +119,9 @@
     <MauiXaml Update="Explanation\LateralRaises.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\LegLunges.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\OneArmShoulderPress.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -132,6 +135,12 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\SeatedDumbellFlyePress.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\SeatedLegCurk.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Explanation\SeatedLegCurl.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Explanation\ShoulderPress.xaml">
