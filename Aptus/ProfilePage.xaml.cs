@@ -27,6 +27,7 @@ namespace Aptus
             _database = new Database();
             ChangePasswordButton.Clicked += ChangePasswordButton_Clicked;
             SaveBioButton.Clicked += SaveBioButton_Clicked;
+            OnAppearing();
         }
 
         private async void SaveBioButton_Clicked(object sender, EventArgs e)
@@ -90,6 +91,11 @@ namespace Aptus
             WeightLabel.Text = string.Format("{0:F0} kg", weight);
             UpdateBmi();
         }
+        private void OnAppearing()
+        {
+            BmiValueLabel.Text = BMIResultPage.BmiValue.ToString();
+        }
+
 
         private void UpdateBmi()
         {
