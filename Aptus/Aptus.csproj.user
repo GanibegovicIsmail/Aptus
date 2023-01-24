@@ -83,6 +83,9 @@
     <MauiXaml Update="Explanation\DumbellPullover.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Explanation\DumbellRomanianDeadlift.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Explanation\DumbellShrugs.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

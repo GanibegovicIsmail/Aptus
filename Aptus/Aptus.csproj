@@ -245,6 +245,9 @@
 	  <MauiXaml Update="Explanation\DumbellPullover.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Explanation\DumbellRomanianDeadlift.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Explanation\DumbellShrugs.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

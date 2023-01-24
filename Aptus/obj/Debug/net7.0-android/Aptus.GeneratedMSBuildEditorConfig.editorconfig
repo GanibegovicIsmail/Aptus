@@ -170,6 +170,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellP
 build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellPullover.xaml
 build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellPullover.xaml
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellRomanianDeadlift.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellRomanianDeadlift.xaml
+build_metadata.AdditionalFiles.TargetPath = Explanation\DumbellRomanianDeadlift.xaml
+build_metadata.AdditionalFiles.RelativePath = Explanation\DumbellRomanianDeadlift.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Explanation/DumbellShrugs.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Explanation.DumbellShrugs.xaml
