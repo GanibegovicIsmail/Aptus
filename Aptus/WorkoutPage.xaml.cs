@@ -1,6 +1,10 @@
 using Aptus.Models;
 using Xamarin;
 using Aptus.Data;
+using System.Threading.Tasks;
+
+
+
 
 namespace Aptus
 {
@@ -30,11 +34,6 @@ namespace Aptus
                 Weight = weight,
                 MuscleGroup = muscleGroup
             };
-
-            var exerciseDatabase = new ExerciseDatabase(Database.DatabasePath);
-
-            // Insert the new exercise into the database
-            exerciseDatabase.SaveExerciseAsync(exercise);
 
             // Code to update the UI with the new exercise goes here
 
@@ -80,6 +79,7 @@ namespace Aptus
             RepsEntry.Text = "";
             WeightEntry.Text = "";
             MuscleGroupEntry.Text = "";
+
         }
     }
 }
