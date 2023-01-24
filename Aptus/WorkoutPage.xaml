@@ -24,10 +24,6 @@
 
             <StackLayout x:Name="ExerciseStackLayout" Orientation="Vertical">
                 <!-- Exercises will be added here -->
-                <StackLayout Orientation="Horizontal">
-                    <Label x:Name="ExerciseNameLabel" Text="Exercise 1" />
-                    <Button x:Name="DeleteExerciseButton" Text="Delete" Clicked="OnDeleteExerciseButtonClicked" />
-                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ScrollView>

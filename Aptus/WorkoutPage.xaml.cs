@@ -42,6 +42,18 @@ namespace Aptus
             RepsEntry.Text = "";
             WeightEntry.Text = "";
         }
+
+        private void OnDeleteExerciseButtonClicked(object sender, EventArgs e)
+        {
+            // Get the button that was clicked
+            var button = (Button)sender;
+
+            // Get the parent stack layout of the button (the one that contains the exercise name and delete button)
+            var exerciseStackLayout = (StackLayout)button.Parent;
+
+            // Remove the exercise stack layout from the exercise stack layout
+            ExerciseStackLayout.Children.Remove(exerciseStackLayout);
+        }
     }
 
     public class Exercise
@@ -52,15 +64,4 @@ namespace Aptus
         public double Weight { get; set; }
     }
 
-    private void OnDeleteExerciseButtonClicked(object sender, EventArgs e)
-    {
-        // Get the button that was clicked
-        var button = (Button)sender;
-
-        // Get the parent stack layout of the button (the one that contains the exercise name and delete button)
-        var exerciseStackLayout = (StackLayout)button.Parent;
-
-        // Remove the exercise stack layout from the exercise stack layout
-        ExerciseStackLayout.Children.Remove(exerciseStackLayout);
-    }
 }
