@@ -16,7 +16,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
         </Tab>
         <Tab Title="Profile" Icon="profile.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:FemaleProfilePage}" />
         </Tab>
     </TabBar>
 

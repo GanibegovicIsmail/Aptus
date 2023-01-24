@@ -6,7 +6,7 @@
        Shell.NavBarIsVisible="False">
 
     <TabBar>
-        <Tab Title="Home" Icon="home.png">
+        <Tab Title="Home" Icon="home.png"> 
             <ShellContent ContentTemplate="{DataTemplate local:MaleBodyParts}"/>
         </Tab>
         <Tab Title="Workout" Icon="plus.png">
