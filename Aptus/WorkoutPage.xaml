@@ -6,27 +6,27 @@
     <ScrollView>
         <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
             <StackLayout>
-                <Label Text="Add a new exercise:"
+                <Label Text="MY WORKOUT"
                    HorizontalOptions="CenterAndExpand"
                    FontFamily="ArialRoundedMTBold"
-                   FontSize="15"
+                   FontSize="20"
                    TextColor="White"
-                   Margin="0,0,0,20" />
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Entry x:Name="ExerciseNameEntry" Placeholder="Exercise Name" TextColor="White" />
-                    <Entry x:Name="SetsEntry" Placeholder="Sets" PlaceholderColor="White" TextColor="White" Keyboard="Numeric" />
-                    <Entry x:Name="RepsEntry" Placeholder="Reps" PlaceholderColor="White" TextColor="White" Keyboard="Numeric" />
-                    <Entry x:Name="WeightEntry" Placeholder="Weight (kg)" PlaceholderColor="White" TextColor="White" Keyboard="Numeric" />
+                   Margin="0,50,0,50" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20">
+                    <Entry x:Name="MuscleGroupEntry" Placeholder="Muscle Group" PlaceholderColor="White" TextColor="White" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Entry x:Name="BodyPartEntry" Placeholder="Muscle Group" PlaceholderColor="White" TextColor="White" />
-                    <Button x:Name="AddExerciseButton" Text="ADD" HeightRequest="30" WidthRequest="50" BackgroundColor="#AA364B51" FontSize="7" TextColor="#BFC4C6" Clicked="AddExerciseButton_Clicked" />
+                    <Entry x:Name="ExerciseNameEntry" Placeholder="Exercise" TextColor="White" FontSize="12"/>
+                    <Entry x:Name="SetsEntry" Placeholder="Sets" PlaceholderColor="White" TextColor="White" Keyboard="Numeric"  FontSize="12"/>
+                    <Entry x:Name="RepsEntry" Placeholder="Reps" PlaceholderColor="White" TextColor="White" Keyboard="Numeric" FontSize="12"/>
+                    <Entry x:Name="WeightEntry" Placeholder="Weight" PlaceholderColor="White" TextColor="White" Keyboard="Numeric" FontSize="12"/>
                 </StackLayout>
+                <Button x:Name="AddExerciseButton" Text="ADD" HeightRequest="30" WidthRequest="50" BackgroundColor="#AA364B51" FontSize="7" TextColor="#BFC4C6" Clicked="AddExerciseButton_Clicked" 
+                        Margin="0,0,0,20" />
                 <StackLayout x:Name="ExerciseStackLayout" Orientation="Vertical">
                     <!-- Exercises will be added here -->
                 </StackLayout>
             </StackLayout>
         </StackLayout>
     </ScrollView>
-
 </ContentPage>

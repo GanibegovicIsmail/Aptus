@@ -1,5 +1,6 @@
 using Aptus.Models;
 using Xamarin;
+using Aptus.Data;
 
 namespace Aptus
 {
@@ -9,16 +10,16 @@ namespace Aptus
         {
             InitializeComponent();
         }
-        private void AddExerciseButton_Clicked(object sender, EventArgs e)
+
+        private async void AddExerciseButton_Clicked(object sender, EventArgs e)
         {
             Color White = Color.FromRgb(255, 255, 255);
-            Color Blue = Color.FromRgb(0, 0, 0);
-            // Get the values entered by the user
+            Color Black = Color.FromRgb(0, 0, 0);
             string exerciseName = ExerciseNameEntry.Text;
             int sets = Convert.ToInt32(SetsEntry.Text);
             int reps = Convert.ToInt32(RepsEntry.Text);
             double weight = Convert.ToDouble(WeightEntry.Text);
-            string muscleGroup = BodyPartEntry.Text;
+            string muscleGroup = MuscleGroupEntry.Text;
 
             // Create a new exercise object
             Exercise exercise = new Exercise
@@ -30,11 +31,18 @@ namespace Aptus
                 MuscleGroup = muscleGroup
             };
 
+            var exerciseDatabase = new ExerciseDatabase(Database.DatabasePath);
+
+            // Insert the new exercise into the database
+            exerciseDatabase.SaveExerciseAsync(exercise);
+
+            // Code to update the UI with the new exercise goes here
+
             // Create a new StackLayout to hold the exercise details and buttons
             StackLayout exerciseStackLayout = new StackLayout
             {
-                Orientation = StackOrientation.Horizontal,
-                Margin = new Thickness(0, 0, 0, 20)
+                Orientation = StackOrientation.Vertical,
+                Margin = new Thickness(0, 0, 0, 10)
             };
 
             // Create a label to display the exercise details
@@ -42,7 +50,8 @@ namespace Aptus
             {
                 Text = $"{exercise.Name} - {exercise.Sets} sets of {exercise.Reps} reps at {exercise.Weight} kg",
                 TextColor = White,
-                VerticalOptions = LayoutOptions.Center
+                VerticalOptions = LayoutOptions.Center,
+                Margin = new Thickness(0, 0, 0, 0)
             };
 
             // Create a label to display the muscle group
@@ -50,37 +59,17 @@ namespace Aptus
             {
                 Text = exercise.MuscleGroup,
                 TextColor = White,
+                FontAttributes = FontAttributes.Bold,
+                FontSize = 15,
                 VerticalOptions = LayoutOptions.Center,
-                Margin = new Thickness(10, 0, 0, 0)
+                HorizontalOptions = LayoutOptions.Center,
+                Margin = new Thickness(20, 0, 0, 20)
             };
 
-            // Create a delete button
-            Button deleteButton = new Button
-            {
-                Text = "Delete",
-                TextColor = White,
-                BackgroundColor = Blue,
-                WidthRequest = 80,
-                HeightRequest = 30,
-                VerticalOptions = LayoutOptions.Center
-            };
-
-            // Create an edit button
-            Button editButton = new Button
-            {
-                Text = "Edit",
-                TextColor = White,
-                BackgroundColor = Blue,
-                WidthRequest = 80,
-                HeightRequest = 30,
-                VerticalOptions = LayoutOptions.Center
-            };
-
-            // Add the exercise details and buttons to the exerciseStackLayout
-            exerciseStackLayout.Children.Add(exerciseLabel);
+            // Add the exerciseLabel, muscleGroupLabel and buttons to the exerciseStackLayout
             exerciseStackLayout.Children.Add(muscleGroupLabel);
-            exerciseStackLayout.Children.Add(deleteButton);
-            exerciseStackLayout.Children.Add(editButton);
+            exerciseStackLayout.Children.Add(exerciseLabel);
+
 
             // Add the exerciseStackLayout to the ExerciseStackLayout
             ExerciseStackLayout.Children.Add(exerciseStackLayout);
@@ -90,8 +79,7 @@ namespace Aptus
             SetsEntry.Text = "";
             RepsEntry.Text = "";
             WeightEntry.Text = "";
-            BodyPartEntry.Text = "";
+            MuscleGroupEntry.Text = "";
         }
     }
 }
-
