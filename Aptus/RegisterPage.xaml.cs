@@ -43,7 +43,7 @@ namespace Aptus
                     await _connection.InsertAsync(newUser);
                     await DisplayAlert("Success", "User successfully added to the database!", "Ok");
                 }
-                await Navigation.PushAsync(new BMIHeightPage());
+                await Navigation.PushAsync(new LoginPage());
             }
             catch (DllNotFoundException ex)
             {

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
+using SQLite;
 
 namespace Aptus.Data
 {
-    internal class Database
+    public class Database
     {
         public const string DatabaseFilename = "Aptus.db3";
 
@@ -16,5 +13,22 @@ namespace Aptus.Data
             SQLite.SQLiteOpenFlags.SharedCache;
 
         public static string DatabasePath => Path.Combine(FileSystem.AppDataDirectory, DatabaseFilename);
+
+        public void SaveBioAsync(string bio)
+        {
+            using (var connection = new SQLiteConnection(DatabasePath, Flags))
+            {
+                connection.CreateTable<BioModel>();
+                connection.Insert(new BioModel { Bio = bio });
+            }
+        }
+    }
+
+    public class BioModel
+    {
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
+        public string Bio { get; set; }
     }
 }
+

@@ -4,20 +4,36 @@ using System.Threading.Tasks;
 using SQLite;
 using Aptus.Data;
 using Aptus.Models;
+using Microsoft.Maui;
 
 namespace Aptus
 {
     public partial class ProfilePage : ContentPage
     {
         private SQLiteAsyncConnection _connection;
+        private Database _database;
         public ProfilePage()
         {
             InitializeComponent();
             EmailLabel.Text = UserSession.Email;
             UsernameLabel.Text = UserSession.Username;
             _connection = new SQLiteAsyncConnection(Database.DatabasePath, Database.Flags);
+            _database = new Database();
             ChangePasswordButton.Clicked += ChangePasswordButton_Clicked;
+            SaveBioButton.Clicked += SaveBioButton_Clicked;
         }
+
+        private async void SaveBioButton_Clicked(object sender, EventArgs e)
+        {
+            string bio = BioEntry.Text;
+
+            // Save the bio to the database
+            _database.SaveBioAsync(bio);
+
+            // Display a message to the user to indicate that the bio has been saved
+            await DisplayAlert("Success", "Your bio has been saved!", "OK");
+        }
+
         private async void ChangePasswordButton_Clicked(object sender, EventArgs e)
         {
             var oldPassword = OldPasswordEntry.Text;
@@ -53,6 +69,5 @@ namespace Aptus
                 }
             }
         }
-
     }
 }

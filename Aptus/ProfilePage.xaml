@@ -1,56 +1,57 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Aptus.ProfilePage"
-             NavigationPage.HasNavigationBar="False">
-    <StackLayout>
-        <StackLayout Padding="20"
-                     BackgroundColor="#AA364B51"
-                     Spacing="20"
-                     Orientation="Vertical">
-            <StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <StackLayout>
-                        <Frame
-                            CornerRadius="200"
-                            WidthRequest="130"
-                            HeightRequest="130">
-                            <Image x:Name="ProfileImage"
-                               Source="defaultprofilepicture.png"
-                               WidthRequest="100"
-                               HeightRequest="100"
-                               Aspect="AspectFill"
-                               Margin="0,0,0,0"
-                               />
-                        </Frame>
-                        <Button x:Name="ChangePictureButton"
-                                Text="Change Picture"
-                                BackgroundColor="Transparent"
-                                TextColor="White"
-                      />
-                    </StackLayout>
-                    <StackLayout>
-                        <Label x:Name="UsernameLabel"
-                               Text="{Binding Username}"
-                               TextColor="White"
-                               FontSize="24"
-                               FontAttributes="Bold"/>
-                        <Label x:Name="EmailLabel"
-                               Text="{Binding Email}"
-                               TextColor="White"
-                               FontSize="18"/>
-                    </StackLayout>
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#AA364B51">
+    <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="0,0,0,20">
+                <Frame CornerRadius="200" WidthRequest="130" HeightRequest="130">
+                    <Image x:Name="ProfileImage"
+                           Source="defaultprofilepicture.png"
+                           WidthRequest="100"
+                           HeightRequest="100"
+                           Aspect="AspectFill"
+                           Margin="0,0,0,0"
+                           />
+                </Frame>
+                <StackLayout VerticalOptions="Center" Margin="20,50,0,0">
+                    <Label x:Name="UsernameLabel"
+                           Text="{Binding Username}"
+                           TextColor="White"
+                           FontSize="30"
+                           FontAttributes="Bold"/>
+                    <Label
+                           Text="Male"
+                           TextColor="White"
+                           Opacity="0.5"></Label>
+                    <Label x:Name="BioLabel"
+                           Text="{Binding Bio}"
+                           TextColor="White"
+                           FontSize="18"/>
+                    <Label x:Name="EmailLabel"
+                           Text="{Binding Email}"
+                           TextColor="White"
+                           FontSize="18"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="0,0,0,20">
+                <VerticalStackLayout>
+                    <Entry x:Name="BioEntry" Placeholder="Enter your bio here" PlaceholderColor="White" Margin="10,0,20,0" TextColor="White"/>
+                </VerticalStackLayout>
+                <StackLayout Margin="0,10,35,50">
+                    <Button x:Name="SaveBioButton" Text="Save" HeightRequest="30" WidthRequest="50" BackgroundColor="#AA364B51" FontSize="7" TextColor="#BFC4C6" Clicked="SaveBioButton_Clicked"/>
                 </StackLayout>
             </StackLayout>
             <StackLayout>
                 <Label Text="Change Password"
                        TextColor="White"
-                       FontSize="20"
+                       FontSize="15"
                        FontAttributes="Bold"
-                       Margin="0,0,0,10"
+                       Margin="0,0,0,0"
                        HorizontalOptions="CenterAndExpand"/>
                 <StackLayout>
-                    <StackLayout Margin="35,55,35,0">
+                    <StackLayout Margin="35,10,35,0">
                         <Entry x:Name="OldPasswordEntry"
                                Placeholder="Old Password"
                                PlaceholderColor="White"
@@ -73,32 +74,20 @@
                                Margin="20,0,20,0"
                                TextColor="{x:StaticResource White}"/>
                     </StackLayout>
-
-
                 </StackLayout>
                 <StackLayout Margin="35,10,35,0">
                     <Button x:Name="ChangePasswordButton"
                             Text="Change Password"
-                            HeightRequest="60"
-                            WidthRequest="295"
+                            HeightRequest="40"
+                            WidthRequest="255"
                             CornerRadius="20"
                             BackgroundColor="#AA364B51"
                             TextColor="#BFC4C6"
                             FontFamily="Arial"
-                            FontAttributes="Bold"
-                            FontSize="13"
-                         />
+                            Clicked="ChangePasswordButton_Clicked"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
-        
-            <StackLayout.Background>
-        <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
-            <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-            <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
-        </LinearGradientBrush>
-    </StackLayout.Background>
-        
     </StackLayout>
 </ContentPage>
 
