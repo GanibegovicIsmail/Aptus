@@ -27,7 +27,7 @@ namespace Aptus
             Navigation.PushAsync(new GoalsPage());
         }
 
-        // Create a static variable to store the BMI value
+
         public static double BmiValue { get; set; }
 
         private void CalculateBmi()
@@ -36,7 +36,7 @@ namespace Aptus
             {
                 _bmi = Math.Round(_weight / (_height / 100 * _height / 100), 2);
                 BmiValueLabel.Text = _bmi.ToString();
-                BmiValue = _bmi; // Store the BMI value in the static variable
+                BmiValue = _bmi; 
                 if (_bmi < 18.5)
                 {
                     _classification = "Underweight";

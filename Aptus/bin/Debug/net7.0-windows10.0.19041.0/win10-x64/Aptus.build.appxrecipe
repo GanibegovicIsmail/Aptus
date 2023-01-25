@@ -685,6 +685,12 @@
     <AppxPackagedFile Include="C:\Users\Mejrima\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.4\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\.nuget\packages\xam.plugin.media\5.0.1\lib\netstandard2.0\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\.nuget\packages\xamarin.essentials\1.7.4\lib\netstandard2.0\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -708,33 +714,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logotextSplashScreen.scale-100.png">
-      <PackagePath>logotextSplashScreen.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logotextSplashScreen.scale-125.png">
-      <PackagePath>logotextSplashScreen.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logotextSplashScreen.scale-150.png">
-      <PackagePath>logotextSplashScreen.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logotextSplashScreen.scale-200.png">
-      <PackagePath>logotextSplashScreen.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\logotextSplashScreen.scale-400.png">
-      <PackagePath>logotextSplashScreen.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\ArialRoundedMTBold.ttf">
-      <PackagePath>ArialRoundedMTBold.ttf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\arlrdbd.ttf">
-      <PackagePath>arlrdbd.ttf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
-      <PackagePath>OpenSans-Regular.ttf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
-      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
@@ -877,6 +856,18 @@
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
       <PackagePath>back.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barbellcurls.scale-100.png">
+      <PackagePath>barbellcurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\barbellhacksquat.scale-100.png">
+      <PackagePath>barbellhacksquat.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\benchpress.scale-100.png">
+      <PackagePath>benchpress.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\bentoverraises.scale-100.png">
+      <PackagePath>bentoverraises.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buildmuscle.scale-100.png">
       <PackagePath>buildmuscle.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -888,6 +879,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\builldstrenghtclicked.scale-100.png">
       <PackagePath>builldstrenghtclicked.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cablefly.scale-100.png">
+      <PackagePath>cablefly.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cablerow.scale-100.png">
+      <PackagePath>cablerow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calvesraises.scale-100.png">
+      <PackagePath>calvesraises.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\chestsupportedlateralraises.scale-100.png">
+      <PackagePath>chestsupportedlateralraises.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\deadlift.scale-100.png">
+      <PackagePath>deadlift.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\declinebench.scale-100.png">
+      <PackagePath>declinebench.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\defaultprofilepicture.scale-100.png">
+      <PackagePath>defaultprofilepicture.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -903,6 +915,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dumbellcurls.scale-100.png">
+      <PackagePath>dumbellcurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dumbellflies.scale-100.png">
+      <PackagePath>dumbellflies.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dumbellpullover.scale-100.png">
+      <PackagePath>dumbellpullover.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dumbellromaniandeadlift.scale-100.png">
+      <PackagePath>dumbellromaniandeadlift.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dumbellshrugs.scale-100.png">
+      <PackagePath>dumbellshrugs.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ezbarcurls.scale-100.png">
+      <PackagePath>ezbarcurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\facepulls.scale-100.png">
+      <PackagePath>facepulls.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\femalearms.scale-100.png">
       <PackagePath>femalearms.scale-100.png</PackagePath>
@@ -928,8 +961,35 @@
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\finallogo.scale-100.png">
       <PackagePath>finallogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\forearmcurls.scale-100.png">
+      <PackagePath>forearmcurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\gobletsquat.scale-100.png">
+      <PackagePath>gobletsquat.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hammercurls.scale-100.png">
+      <PackagePath>hammercurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hamstringcurls.scale-100.png">
+      <PackagePath>hamstringcurls.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\horizontallegpress.scale-100.png">
+      <PackagePath>horizontallegpress.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\inclinebenchpress.scale-100.jpg">
+      <PackagePath>inclinebenchpress.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lateralraises.scale-100.png">
+      <PackagePath>lateralraises.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\leglunges.scale-100.png">
+      <PackagePath>leglunges.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\legpress.scale-100.png">
+      <PackagePath>legpress.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading1.scale-100.png">
       <PackagePath>loading1.scale-100.png</PackagePath>
@@ -960,6 +1020,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoalone.scale-100.png">
+      <PackagePath>logoalone.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logotextpng.scale-100.png">
       <PackagePath>logotextpng.scale-100.png</PackagePath>
@@ -994,14 +1057,62 @@
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
       <PackagePath>menu.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\onearmshoulderpress.scale-100.png">
+      <PackagePath>onearmshoulderpress.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
+      <PackagePath>plus.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png">
       <PackagePath>profile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\pullup.scale-100.png">
+      <PackagePath>pullup.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\quadextensions.scale-100.png">
+      <PackagePath>quadextensions.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\romaniandeadlift.scale-100.png">
+      <PackagePath>romaniandeadlift.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
       <PackagePath>search.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\seatedcablefly.scale-100.png">
+      <PackagePath>seatedcablefly.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\seateddumbellfly.scale-100.png">
+      <PackagePath>seateddumbellfly.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\seatedlegcurl.scale-100.png">
+      <PackagePath>seatedlegcurl.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
       <PackagePath>settings.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shoulderpress.scale-100.png">
+      <PackagePath>shoulderpress.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\shrugs.scale-100.png">
+      <PackagePath>shrugs.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\skullcrushers.scale-100.png">
+      <PackagePath>skullcrushers.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\smallcamera.scale-100.png">
+      <PackagePath>smallcamera.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\squats.scale-100.png">
+      <PackagePath>squats.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\standingcablerow.scale-100.png">
+      <PackagePath>standingcablerow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sumodeadlift.scale-100.png">
+      <PackagePath>sumodeadlift.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mejrima\Desktop\Aptus 2\Aptus\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tricepspushdown.scale-100.png">
+      <PackagePath>tricepspushdown.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

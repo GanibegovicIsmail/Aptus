@@ -26,13 +26,12 @@ namespace Aptus
                 var user = await query.FirstOrDefaultAsync();
                 if (user != null)
                 {
-                    //user already exists in the database
+
                     await DisplayAlert("Error", "User with this email already exists!", "Ok");
                     return;
                 }
                 else
                 {
-                    //user does not exist in the database
                     var newUser = new User
                     {
                         Username = UsernameEntry.Text,
@@ -47,7 +46,6 @@ namespace Aptus
             }
             catch (DllNotFoundException ex)
             {
-                // handle the exception here
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
             }

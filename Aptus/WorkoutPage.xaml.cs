@@ -35,14 +35,14 @@ namespace Aptus
                 MuscleGroup = muscleGroup
             };
 
-            // Create a new StackLayout to hold the exercise details and buttons
+
             StackLayout exerciseStackLayout = new StackLayout
             {
                 Orientation = StackOrientation.Vertical,
                 Margin = new Thickness(0, 0, 0, 10)
             };
 
-            // Create a label to display the exercise details
+
             Label exerciseLabel = new Label
             {
                 Text = $"{exercise.Name} - {exercise.Sets} sets of {exercise.Reps} reps at {exercise.Weight} kg",
@@ -51,7 +51,6 @@ namespace Aptus
                 Margin = new Thickness(0, 0, 0, 0)
             };
 
-            // Create a label to display the muscle group
             Label muscleGroupLabel = new Label
             {
                 Text = exercise.MuscleGroup,
@@ -61,7 +60,6 @@ namespace Aptus
                 Margin = new Thickness(0, 0, 0, 10)
             };
 
-            // Create a "DELETE" button
             Button deleteButton = new Button
             {
                 Text = "DELETE",
@@ -73,15 +71,12 @@ namespace Aptus
             };
 
 
-            // Add Clicked event to the button
+
             deleteButton.Clicked += DeleteButton_Clicked;
 
-            // Add the labels and button to the exerciseStackLayout
             exerciseStackLayout.Children.Add(muscleGroupLabel);
             exerciseStackLayout.Children.Add(exerciseLabel);
             exerciseStackLayout.Children.Add(deleteButton);
-
-            // Add the exerciseStackLayout to the main ExerciseStackLayout
             ExerciseStackLayout.Children.Add(exerciseStackLayout);
         }
 

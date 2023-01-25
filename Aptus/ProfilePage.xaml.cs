@@ -34,10 +34,8 @@ namespace Aptus
         {
             string bio = BioEntry.Text;
 
-            // Save the bio to the database
             _database.SaveBioAsync(bio);
 
-            // Display a message to the user to indicate that the bio has been saved
             await DisplayAlert("Success", "Your bio has been saved!", "OK");
         }
 
