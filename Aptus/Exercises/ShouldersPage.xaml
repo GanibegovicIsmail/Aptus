@@ -74,7 +74,7 @@
                         ></Image>
                     <VerticalStackLayout>
                         <Label
-                        Text="Bent over raises"
+                        Text="Chest supported raises"
                         TextColor="#364B51"
                         FontFamily="Arial"
                         FontAttributes="Bold"

@@ -327,7 +327,7 @@
                         ></Image>
                     <VerticalStackLayout>
                         <Label
-                        Text="Quadextensions"
+                        Text="Quad extensions"
                         TextColor="#364B51"
                         FontFamily="Arial"
                         FontAttributes="Bold"
