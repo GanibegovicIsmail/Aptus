@@ -50,12 +50,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Aptus.BMIWeightPage.xaml
 build_metadata.AdditionalFiles.TargetPath = BMIWeightPage.xaml
 build_metadata.AdditionalFiles.RelativePath = BMIWeightPage.xaml
 
-[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/EditExercisePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Aptus.EditExercisePage.xaml
-build_metadata.AdditionalFiles.TargetPath = EditExercisePage.xaml
-build_metadata.AdditionalFiles.RelativePath = EditExercisePage.xaml
-
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/ArmsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.Exercises.ArmsPage.xaml

@@ -8,10 +8,12 @@ namespace Aptus
 {
     public partial class WorkoutPage : ContentPage
     {
+        private SQLiteAsyncConnection _connection;
         public WorkoutPage()
         {
             InitializeComponent();
         }
+
 
         private async void AddExerciseButton_Clicked(object sender, EventArgs e)
         {
@@ -70,25 +72,13 @@ namespace Aptus
                 HeightRequest = 30
             };
 
-            Button editButton = new Button
-            {
-                Text = "EDIT",
-                TextColor = White,
-                BackgroundColor = Color.FromHex("#AA364B51"),
-                FontSize = 5,
-                HorizontalOptions = LayoutOptions.Start,
-                 HeightRequest = 30
-            };
 
             // Add Clicked event to the button
             deleteButton.Clicked += DeleteButton_Clicked;
 
-            editButton.Clicked += EditButton_Clicked;
-
             // Add the labels and button to the exerciseStackLayout
             exerciseStackLayout.Children.Add(muscleGroupLabel);
             exerciseStackLayout.Children.Add(exerciseLabel);
-            exerciseStackLayout.Children.Add(editButton);
             exerciseStackLayout.Children.Add(deleteButton);
 
             // Add the exerciseStackLayout to the main ExerciseStackLayout
@@ -100,13 +90,6 @@ namespace Aptus
             var button = (Button)sender;
             var exerciseStackLayout = (StackLayout)button.Parent;
             ExerciseStackLayout.Children.Remove(exerciseStackLayout);
-        }
-        void EditButton_Clicked(object sender, EventArgs e)
-        {
-            var button = (Button)sender;
-            var exerciseStackLayout = (StackLayout)button.Parent;
-            var exercise = exerciseStackLayout.BindingContext as Exercise;
-            Navigation.PushAsync(new EditExercisePage(exercise));
         }
 
     }

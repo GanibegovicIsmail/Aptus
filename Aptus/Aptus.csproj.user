@@ -23,9 +23,6 @@
     <MauiXaml Update="BMIWeightPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="EditExercisePage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Exercises\ArmsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

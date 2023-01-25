@@ -21,6 +21,12 @@ namespace Aptus.Data
             connection.CreateTable<BioModel>();
             connection.Insert(new BioModel { Bio = bio });
         }
+        public async Task SaveExerciseAsync(string exercise)
+        {
+            var connection = new SQLiteConnection(DatabasePath, Flags);
+            connection.CreateTable<ExerciseModel>();
+            connection.Insert(new ExerciseModel { Exercise = exercise });
+        }
     }
 
 
@@ -29,6 +35,12 @@ namespace Aptus.Data
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Bio { get; set; }
+    }
+    public class ExerciseModel
+    {
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
+        public string Exercise { get; set; }
     }
 
 }

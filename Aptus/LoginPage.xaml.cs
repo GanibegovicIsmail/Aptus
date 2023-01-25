@@ -4,6 +4,7 @@ using Aptus;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Aptus.Data;
 
 namespace Aptus
 {
@@ -28,6 +29,7 @@ namespace Aptus
                 var user = await query.FirstOrDefaultAsync();
                 if (user != null && user.Password == PasswordEntry.Text)
                 {
+                    UserCred.Email = user.Email;
                     UserSession.Username = user.Email;
                     await Navigation.PushAsync(new BMIHeightPage());
                 }
