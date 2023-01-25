@@ -57,7 +57,7 @@
             Margin="0,20,0,0"
             BorderColor="Transparent"
             Padding="20"
-            BackgroundColor="White"
+            BackgroundColor="#aaffffff"
             Opacity="0.8">
                 <Label
         Text="Lie on your back on a flat bench. Grip a barbell with hands slightly wider than shoulder width. 

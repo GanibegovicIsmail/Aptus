@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aptus.EditExercisePage"
+             Title="EditExercisePage">
+    <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
+        <StackLayout>
+            <Label Text="Edit Exercise"
+                   HorizontalOptions="CenterAndExpand"
+                   FontFamily="ArialRoundedMTBold"
+                   FontSize="20"
+                   TextColor="Black"
+                   Margin="0,50,0,50" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,0,0,20">
+                <Entry x:Name="MuscleGroupEntry" Placeholder="Muscle Group" Text="{Binding MuscleGroup}" TextColor="Black" FontSize="12" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Entry x:Name="ExerciseNameEntry" Placeholder="Exercise" Text="{Binding Name}" TextColor="Black" FontSize="12"/>
+                <Entry x:Name="SetsEntry" Placeholder="Sets" Text="{Binding Sets}" TextColor="Black" Keyboard="Numeric"  FontSize="12"/>
+                <Entry x:Name="RepsEntry" Placeholder="Reps" Text="{Binding Reps}" TextColor="Black" Keyboard="Numeric" FontSize="12"/>
+                <Entry x:Name="WeightEntry" Placeholder="Weight" Text="{Binding Weight}" TextColor="Black" Keyboard="Numeric" FontSize="12"/>
+            </StackLayout>
+            <Button x:Name="SaveChangesButton" Text="Save Changes" HeightRequest="30" WidthRequest="50" BackgroundColor="#AA364B51" FontSize="7" TextColor="#BFC4C6" Clicked="SaveChangesButton_Clicked" 
+                        Margin="0,20,0,0" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

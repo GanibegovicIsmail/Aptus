@@ -13,7 +13,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:WorkoutPage}" />
         </Tab>
         <Tab Title="Settings" Icon="settings.png">
-            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:FemaleSettingsPage}" />
         </Tab>
         <Tab Title="Profile" Icon="profile.png">
             <ShellContent ContentTemplate="{DataTemplate local:FemaleProfilePage}" />

@@ -2,9 +2,7 @@ using Aptus.Models;
 using Xamarin;
 using Aptus.Data;
 using System.Threading.Tasks;
-
-
-
+using SQLite;
 
 namespace Aptus
 {
@@ -35,8 +33,6 @@ namespace Aptus
                 MuscleGroup = muscleGroup
             };
 
-            // Code to update the UI with the new exercise goes here
-
             // Create a new StackLayout to hold the exercise details and buttons
             StackLayout exerciseStackLayout = new StackLayout
             {
@@ -58,28 +54,60 @@ namespace Aptus
             {
                 Text = exercise.MuscleGroup,
                 TextColor = White,
-                FontAttributes = FontAttributes.Bold,
-                FontSize = 15,
                 VerticalOptions = LayoutOptions.Center,
                 HorizontalOptions = LayoutOptions.Center,
-                Margin = new Thickness(20, 0, 0, 20)
+                Margin = new Thickness(0, 0, 0, 10)
             };
 
-            // Add the exerciseLabel, muscleGroupLabel and buttons to the exerciseStackLayout
+            // Create a "DELETE" button
+            Button deleteButton = new Button
+            {
+                Text = "DELETE",
+                TextColor = White,
+                BackgroundColor = Color.FromHex("#AA364B51"),
+                FontSize = 5,
+                HorizontalOptions = LayoutOptions.Start,
+                HeightRequest = 30
+            };
+
+            Button editButton = new Button
+            {
+                Text = "EDIT",
+                TextColor = White,
+                BackgroundColor = Color.FromHex("#AA364B51"),
+                FontSize = 5,
+                HorizontalOptions = LayoutOptions.Start,
+                 HeightRequest = 30
+            };
+
+            // Add Clicked event to the button
+            deleteButton.Clicked += DeleteButton_Clicked;
+
+            editButton.Clicked += EditButton_Clicked;
+
+            // Add the labels and button to the exerciseStackLayout
             exerciseStackLayout.Children.Add(muscleGroupLabel);
             exerciseStackLayout.Children.Add(exerciseLabel);
+            exerciseStackLayout.Children.Add(editButton);
+            exerciseStackLayout.Children.Add(deleteButton);
 
-
-            // Add the exerciseStackLayout to the ExerciseStackLayout
+            // Add the exerciseStackLayout to the main ExerciseStackLayout
             ExerciseStackLayout.Children.Add(exerciseStackLayout);
-
-            // Clear the Entry fields
-            ExerciseNameEntry.Text = "";
-            SetsEntry.Text = "";
-            RepsEntry.Text = "";
-            WeightEntry.Text = "";
-            MuscleGroupEntry.Text = "";
-
         }
+
+        void DeleteButton_Clicked(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var exerciseStackLayout = (StackLayout)button.Parent;
+            ExerciseStackLayout.Children.Remove(exerciseStackLayout);
+        }
+        void EditButton_Clicked(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var exerciseStackLayout = (StackLayout)button.Parent;
+            var exercise = exerciseStackLayout.BindingContext as Exercise;
+            Navigation.PushAsync(new EditExercisePage(exercise));
+        }
+
     }
 }

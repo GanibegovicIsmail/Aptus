@@ -97,6 +97,7 @@
 	  <None Remove="Resources\Images\loading4.png" />
 	  <None Remove="Resources\Images\loading5.png" />
 	  <None Remove="Resources\Images\logo.svg" />
+	  <None Remove="Resources\Images\logoalone.png" />
 	  <None Remove="Resources\Images\logotextpng.png" />
 	  <None Remove="Resources\Images\losefat.png" />
 	  <None Remove="Resources\Images\losefatclicked.png" />
@@ -173,6 +174,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AboutUsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="BMIHeightPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -180,6 +184,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="BMIWeightPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="EditExercisePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Exercises\ArmsPage.xaml">

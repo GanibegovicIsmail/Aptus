@@ -10,6 +10,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aptus
 build_property.ProjectDir = C:\Users\Mejrima\Desktop\Aptus 2\Aptus\
 
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/AboutUsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.AboutUsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutUsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutUsPage.xaml
+
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.App.xaml
@@ -39,6 +45,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Aptus.BMIWeightPage.xaml
 build_metadata.AdditionalFiles.TargetPath = BMIWeightPage.xaml
 build_metadata.AdditionalFiles.RelativePath = BMIWeightPage.xaml
+
+[C:/Users/Mejrima/Desktop/Aptus 2/Aptus/EditExercisePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Aptus.EditExercisePage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditExercisePage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditExercisePage.xaml
 
 [C:/Users/Mejrima/Desktop/Aptus 2/Aptus/Exercises/ArmsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
