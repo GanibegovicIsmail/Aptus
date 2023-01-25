@@ -39,19 +39,19 @@ namespace Aptus
                 BmiValue = _bmi; 
                 if (_bmi < 18.5)
                 {
-                    _classification = "Underweight";
+                    _classification = "Underweight, focus on eating more";
                 }
                 else if (_bmi >= 18.5 && _bmi <= 24.9)
                 {
-                    _classification = "Normal weight";
+                    _classification = "Normal weight, youre doing just fine";
                 }
                 else if (_bmi >= 25 && _bmi <= 29.9)
                 {
-                    _classification = "Overweight";
+                    _classification = "Overweight, you should try to do more cardio style workouts";
                 }
                 else if (_bmi >= 30)
                 {
-                    _classification = "Obesity";
+                    _classification = "Obesity, focus on cardio workouts and eating less";
                 }
                 ClassificationLabel.Text = _classification;
             }

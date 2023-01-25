@@ -34,47 +34,98 @@ namespace Aptus
         {
             string bio = BioEntry.Text;
 
-            // Save the bio to the database
             _database.SaveBioAsync(bio);
 
-            // Display a message to the user to indicate that the bio has been saved
             await DisplayAlert("Success", "Your bio has been saved!", "OK");
         }
 
         private async void ChangePasswordButton_Clicked(object sender, EventArgs e)
         {
+
             var oldPassword = OldPasswordEntry.Text;
             var newPassword = NewPasswordEntry.Text;
             var confirmPassword = ConfirmPasswordEntry.Text;
 
-            var currentUser = await _connection.Table<User>().Where(u => u.Email == UserSession.Email).FirstOrDefaultAsync();
-            if (currentUser != null)
-            {
-                // Compare old password with the one in the database
-                if (currentUser.Password == oldPassword)
-                {
-                    // Compare new and confirm passwords
-                    if (newPassword == confirmPassword)
-                    {
-                        // Update the password in the database
-                        currentUser.Password = newPassword;
-                        await _connection.UpdateAsync(currentUser);
+            var email = UserCred.Email;
+            var query = _connection.Table<User>().Where(u => u.Email == email);
+            var user = await query.FirstOrDefaultAsync();
 
-                        // Show a message "Password changed successfully"
-                        await DisplayAlert("Success", "Password changed successfully", "OK");
+            try
+            {
+
+                if (user.Password == oldPassword)
+                {
+                    if (oldPassword != newPassword)
+                    {
+                        if (newPassword == confirmPassword)
+                        {
+                            user.Password = newPassword;
+                            await _connection.UpdateAsync(user);
+                            await DisplayAlert("Success", "User data updated", "Ok");
+                        }
+                        else
+                        {
+                            await DisplayAlert("Error", "Passwords don't match", "OK");
+
+                        }
                     }
                     else
                     {
-                        // Show an error message "New password and confirm password do not match"
-                        await DisplayAlert("Error", "New password and confirm password do not match", "OK");
+                        await DisplayAlert("Error", "New and old password are the same", "OK");
                     }
+
                 }
                 else
                 {
-                    // Show an error message "Incorrect old password"
-                    await DisplayAlert("Error", "Incorrect old password", "OK");
+                    await DisplayAlert("Error", "Incorrect password", "OK");
                 }
+
             }
+            catch (SQLiteException ex)
+            {
+                if (ex.Message.Contains("UNIQUE constraint failed"))
+                    await DisplayAlert("Error", "Email already exists. Please enter a different email", "Ok");
+                else
+                    await DisplayAlert("Error", ex.Message, "Ok");
+            }
+
+
+
+
+
+
+            //var oldPassword = OldPasswordEntry.Text;
+            //var newPassword = NewPasswordEntry.Text;
+            //var confirmPassword = ConfirmPasswordEntry.Text;
+
+            //var currentUser = await _connection.Table<User>().Where(u => u.Email == UserCred.Email).FirstOrDefaultAsync();
+            //if (currentUser != null)
+            //{
+            //    // Compare old password with the one in the database
+            //    if (currentUser.Password == oldPassword)
+            //    {
+            //        // Compare new and confirm passwords
+            //        if (newPassword == confirmPassword)
+            //        {
+            //            // Update the password in the database
+            //            currentUser.Password = newPassword;
+            //            await _connection.UpdateAsync(currentUser);
+
+            //            // Show a message "Password changed successfully"
+            //            await DisplayAlert("Success", "Password changed successfully", "OK");
+            //        }
+            //        else
+            //        {
+            //            // Show an error message "New password and confirm password do not match"
+            //            await DisplayAlert("Error", "New password and confirm password do not match", "OK");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        // Show an error message "Incorrect old password"
+            //        await DisplayAlert("Error", "Incorrect old password", "OK");
+            //    }
+            //}
         }
 
 
@@ -103,19 +154,19 @@ namespace Aptus
             BmiValueLabel.Text = _bmi.ToString();
             if (_bmi < 18.5)
             {
-                _classification = "Underweight";
+                _classification = "Underweight, focus on eatring more ";
             }
             else if (_bmi >= 18.5 && _bmi <= 24.9)
             {
-                _classification = "Normal weight";
+                _classification = "Normal weight, you're doing just fine";
             }
             else if (_bmi >= 25 && _bmi <= 29.9)
             {
-                _classification = "Overweight";
+                _classification = "Overweight, implement cardio training";
             }
             else
             {
-                _classification = "Obesity";
+                _classification = "Obesity, focus on eating less and doing more cardio";
             }
             ClassificationLabel.Text = _classification;
         }

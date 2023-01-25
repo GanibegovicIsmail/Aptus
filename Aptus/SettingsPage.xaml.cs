@@ -10,6 +10,10 @@ public partial class SettingsPage : ContentPage
     {
         Navigation.PushAsync(new ProfilePage());
     }
+    void OnChangePasswordClicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new FemaleProfilePage());
+    }
     void OnWorkoutPageClicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new WorkoutPage());

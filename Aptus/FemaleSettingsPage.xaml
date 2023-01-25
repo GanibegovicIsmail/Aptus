@@ -6,6 +6,22 @@
              NavigationPage.HasNavigationBar="False"
              >
     <StackLayout>
+
+        <StackLayout>
+            <Frame
+                BackgroundColor="#AAFFFFFF"
+                CornerRadius="0"
+                HeightRequest="90"
+                >
+                <Image
+                    Source="logotextpng.png"
+                    Scale="1">
+                </Image>
+            </Frame>
+        </StackLayout>
+
+
+
         <Label Text="SETTINGS"
                    HorizontalOptions="CenterAndExpand"
                    FontFamily="ArialRoundedMTBold"
@@ -54,34 +70,11 @@
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
                 HeightRequest="1"></StackLayout>
-            <Button Text="Change Email"
+            <Button Text="Change Password"
                     CornerRadius="0"
                     HeightRequest="60"
-                    BackgroundColor="Transparent">
-            </Button>
-            <StackLayout
-                BackgroundColor="#AAFFFFFF"
-                HeightRequest="1"></StackLayout>
-            <Button Text="Work In Progess"
-                    CornerRadius="0"
-                    HeightRequest="60"
-                    BackgroundColor="Transparent">
-            </Button>
-            <StackLayout
-                BackgroundColor="#AAFFFFFF"
-                HeightRequest="1"></StackLayout>
-            <Button Text="Work In Progess"
-                    CornerRadius="0"
-                    HeightRequest="60"
-                    BackgroundColor="Transparent">
-            </Button>
-            <StackLayout
-                BackgroundColor="#AAFFFFFF"
-                HeightRequest="1"></StackLayout>
-            <Button Text="Work In Progess"
-                    CornerRadius="0"
-                    HeightRequest="60"
-                    BackgroundColor="Transparent">
+                    BackgroundColor="Transparent"
+                    Clicked="OnChangePasswordClicked">
             </Button>
             <StackLayout
                 BackgroundColor="#AAFFFFFF"
@@ -114,7 +107,7 @@
         <StackLayout.Background>
             <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
                 <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
             </LinearGradientBrush>
         </StackLayout.Background>
     </StackLayout>

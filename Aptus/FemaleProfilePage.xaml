@@ -2,8 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Aptus"
              x:Class="Aptus.FemaleProfilePage"
-             NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#AA364B51">
+             NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <StackLayout Padding="20" Spacing="20" Orientation="Vertical">
             <StackLayout>
@@ -200,9 +199,17 @@
                             Clicked="ChangePasswordButton_Clicked"/>
                     </StackLayout>
                 </StackLayout>
-
             </StackLayout>
+
         </StackLayout>
+
+        <ScrollView.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </ScrollView.Background>
+
     </ScrollView>
 </ContentPage>
 

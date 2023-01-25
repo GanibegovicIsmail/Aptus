@@ -203,6 +203,14 @@
 
             </StackLayout>
     </StackLayout>
+
+        <ScrollView.Background>
+            <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
+                <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
+            </LinearGradientBrush>
+        </ScrollView.Background>
+
     </ScrollView>
 </ContentPage>
 

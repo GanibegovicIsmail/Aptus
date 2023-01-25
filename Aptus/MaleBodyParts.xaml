@@ -7,7 +7,33 @@
     <ScrollView>
         <StackLayout>
 
+            <StackLayout>
+                <Frame
+                BackgroundColor="#AAFFFFFF"
+                CornerRadius="0"
+                HeightRequest="90"
+                >
+                    <Image
+                    Source="logotextpng.png"
+                    Scale="1">
+                    </Image>
+                </Frame>
+            </StackLayout>
+
             <Label
+                Text="Hi,   Aptus User"
+                FontFamily="ArialRoundedMTBold"
+                TextColor="#364B51"
+                Margin="30,20,0,-20"
+                FontSize="16"></Label>
+            <Label
+                Text="Let's Strat Training"
+                FontFamily="ArialRoundedMTBold"
+                TextColor="#364B51"
+                Margin="30,20,0,10"
+                FontSize="22"></Label>
+
+            <!--<Label
                 Text="TARGET"
                 FontSize="30"
                 FontFamily="Arial"
@@ -24,12 +50,12 @@
                 HeightRequest="1"
                 Opacity="0.5">
 
-            </StackLayout>
+            </StackLayout>-->
             
             <Frame 
             Margin="20,40,20,20"
             HeightRequest="180"
-            CornerRadius="50"
+            CornerRadius="35"
             BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
@@ -95,7 +121,7 @@
             <Frame 
             Margin="20,0,20,20"
             HeightRequest="180"
-            CornerRadius="50"
+            CornerRadius="35"
             BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
@@ -162,7 +188,7 @@
             <Frame 
             Margin="20,0,20,20"
             HeightRequest="180"
-            CornerRadius="50"
+            CornerRadius="35"
             BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
@@ -230,7 +256,7 @@
             <Frame 
             Margin="20,0,20,20"
             HeightRequest="180"
-            CornerRadius="50"
+            CornerRadius="35"
             BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
@@ -298,7 +324,7 @@
             <Frame 
             Margin="20,0,20,20"
             HeightRequest="180"
-            CornerRadius="50"
+            CornerRadius="35"
             BackgroundColor="#AAFFFFFF">
                 <HorizontalStackLayout
                     Padding="10,5,0,5">
@@ -371,7 +397,7 @@
             <StackLayout.Background>
                 <LinearGradientBrush StartPoint="0.5,0.5" EndPoint="0.5,1">
                     <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
-                    <GradientStop Color="#A9B3B9" Offset="0"></GradientStop>
+                    <GradientStop Color="#5D6E76" Offset="1"></GradientStop>
                 </LinearGradientBrush>
             </StackLayout.Background>
         </StackLayout>
